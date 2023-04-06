@@ -1,0 +1,2760 @@
+Apr 05 02:31:49 saikarch-p4 wpa_supplicant[636]: wlp7s0: CTRL-EVENT-EAP-PEER-ALT depth=0 DNS:sns-cfd-admin-2.cwru.edu
+Apr 05 02:31:49 saikarch-p4 wpa_supplicant[636]: EAP-MSCHAPV2: Authentication succeeded
+Apr 05 02:31:49 saikarch-p4 wpa_supplicant[636]: wlp7s0: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+Apr 05 02:31:49 saikarch-p4 wpa_supplicant[636]: wlp7s0: PMKSA-CACHE-ADDED a4:b2:39:5f:f4:ac 0
+Apr 05 02:31:49 saikarch-p4 wpa_supplicant[636]: wlp7s0: WPA: Key negotiation completed with a4:b2:39:5f:f4:ac [PTK=CCMP GTK=CCMP]
+Apr 05 02:31:49 saikarch-p4 wpa_supplicant[636]: wlp7s0: CTRL-EVENT-CONNECTED - Connection to a4:b2:39:5f:f4:ac completed [id=0 id_str=]
+Apr 05 02:31:49 saikarch-p4 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): wlp7s0: link becomes ready
+Apr 05 02:31:49 saikarch-p4 NetworkManager[578]: <info>  [1680676309.3287] device (wlp7s0): supplicant interface state: associated -> completed
+Apr 05 02:31:49 saikarch-p4 NetworkManager[578]: <info>  [1680676309.3287] device (wlp7s0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "CaseWireless"
+Apr 05 02:31:49 saikarch-p4 NetworkManager[578]: <info>  [1680676309.3287] device (p2p-dev-wlp7s0): supplicant management interface state: associated -> completed
+Apr 05 02:31:49 saikarch-p4 NetworkManager[578]: <info>  [1680676309.3289] device (wlp7s0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Apr 05 02:31:49 saikarch-p4 NetworkManager[578]: <info>  [1680676309.3293] dhcp4 (wlp7s0): activation: beginning transaction (timeout in 45 seconds)
+Apr 05 02:31:49 saikarch-p4 wpa_supplicant[636]: wlp7s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-46 noise=9999 txrate=117000
+Apr 05 02:31:49 saikarch-p4 NetworkManager[578]: <info>  [1680676309.3363] dhcp4 (wlp7s0): state changed new lease, address=172.20.88.124
+Apr 05 02:31:49 saikarch-p4 NetworkManager[578]: <info>  [1680676309.3368] policy: set 'Wi-Fi connection 1' (wlp7s0) as default for IPv4 routing and DNS
+Apr 05 02:31:49 saikarch-p4 NetworkManager[578]: <info>  [1680676309.3639] device (wlp7s0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Apr 05 02:31:49 saikarch-p4 NetworkManager[578]: <info>  [1680676309.3657] device (wlp7s0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Apr 05 02:31:49 saikarch-p4 NetworkManager[578]: <info>  [1680676309.3658] device (wlp7s0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Apr 05 02:31:49 saikarch-p4 NetworkManager[578]: <info>  [1680676309.3659] manager: NetworkManager state is now CONNECTED_SITE
+Apr 05 02:31:49 saikarch-p4 NetworkManager[578]: <info>  [1680676309.3705] device (wlp7s0): Activation: successful, device activated.
+Apr 05 02:31:49 saikarch-p4 NetworkManager[578]: <info>  [1680676309.6349] manager: NetworkManager state is now CONNECTED_GLOBAL
+Apr 05 02:31:54 saikarch-p4 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+Apr 05 02:31:58 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.21' (uid=0 pid=732 comm="sudo pacman -S sddm")
+Apr 05 02:31:58 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:31:58 saikarch-p4 sudo[732]: pam_systemd_home(sudo:account): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:31:58 saikarch-p4 sudo[732]:     saik : TTY=tty1 ; PWD=/home/saik ; USER=root ; COMMAND=/usr/bin/pacman -S sddm
+Apr 05 02:31:58 saikarch-p4 sudo[732]: pam_unix(sudo:session): session opened for user root(uid=0) by saik(uid=1000)
+Apr 05 02:31:59 saikarch-p4 sudo[732]: pam_unix(sudo:session): session closed for user root
+Apr 05 02:32:08 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.22' (uid=0 pid=735 comm="sudo pacman -Sy")
+Apr 05 02:32:08 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:32:08 saikarch-p4 sudo[735]: pam_systemd_home(sudo:account): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:32:08 saikarch-p4 sudo[735]:     saik : TTY=tty1 ; PWD=/home/saik ; USER=root ; COMMAND=/usr/bin/pacman -Sy
+Apr 05 02:32:08 saikarch-p4 sudo[735]: pam_unix(sudo:session): session opened for user root(uid=0) by saik(uid=1000)
+Apr 05 02:32:11 saikarch-p4 sudo[735]: pam_unix(sudo:session): session closed for user root
+Apr 05 02:32:13 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.23' (uid=0 pid=738 comm="sudo pacman -S sddm")
+Apr 05 02:32:13 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:32:13 saikarch-p4 sudo[738]: pam_systemd_home(sudo:account): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:32:13 saikarch-p4 sudo[738]:     saik : TTY=tty1 ; PWD=/home/saik ; USER=root ; COMMAND=/usr/bin/pacman -S sddm
+Apr 05 02:32:13 saikarch-p4 sudo[738]: pam_unix(sudo:session): session opened for user root(uid=0) by saik(uid=1000)
+Apr 05 02:32:22 saikarch-p4 dbus-daemon[576]: [system] Reloaded configuration
+Apr 05 02:32:22 saikarch-p4 systemd[1]: Reloading requested from client PID 831 (unit session-1.scope)...
+Apr 05 02:32:22 saikarch-p4 systemd[1]: Reloading...
+Apr 05 02:32:22 saikarch-p4 systemd[1]: Reloading finished in 156 ms.
+Apr 05 02:32:22 saikarch-p4 systemd[1]: Reloading D-Bus System Message Bus...
+░░ Subject: A reload job for unit dbus.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A reload job for unit dbus.service has begun execution.
+░░ 
+░░ The job identifier is 967.
+Apr 05 02:32:22 saikarch-p4 dbus-daemon[576]: [system] Reloaded configuration
+Apr 05 02:32:22 saikarch-p4 dbus-send[854]: method return time=1680676342.959351 sender=org.freedesktop.DBus -> destination=:1.25 serial=3 reply_serial=2
+Apr 05 02:32:22 saikarch-p4 systemd[1]: Reloaded D-Bus System Message Bus.
+░░ Subject: A reload job for unit dbus.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A reload job for unit dbus.service has finished.
+░░ 
+░░ The job identifier is 967 and the job result is done.
+Apr 05 02:32:22 saikarch-p4 sudo[738]: pam_unix(sudo:session): session closed for user root
+Apr 05 02:32:27 saikarch-p4 polkitd[679]: Registered Authentication Agent for unix-process:855:20034 (system bus name :1.26 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 05 02:32:27 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.28' (uid=0 pid=865 comm="/usr/lib/polkit-1/polkit-agent-helper-1 saik")
+Apr 05 02:32:27 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:32:27 saikarch-p4 polkit-agent-helper-1[865]: pam_systemd_home(polkit-1:auth): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:32:29 saikarch-p4 polkitd[679]: Operator of unix-process:855:20034 successfully authenticated as unix-user:saik to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.27 [systemctl start sddm] (owned by unix-user:saik)
+Apr 05 02:32:29 saikarch-p4 systemd[1]: Stopping Getty on tty1...
+░░ Subject: A stop job for unit getty@tty1.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit getty@tty1.service has begun execution.
+░░ 
+░░ The job identifier is 1064.
+Apr 05 02:32:29 saikarch-p4 login[612]: pam_unix(login:session): session closed for user saik
+Apr 05 02:32:29 saikarch-p4 polkitd[679]: Unregistered Authentication Agent for unix-process:855:20034 (system bus name :1.26, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 05 02:32:29 saikarch-p4 systemd[1]: getty@tty1.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit getty@tty1.service has successfully entered the 'dead' state.
+Apr 05 02:32:29 saikarch-p4 systemd[1]: Stopped Getty on tty1.
+░░ Subject: A stop job for unit getty@tty1.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit getty@tty1.service has finished.
+░░ 
+░░ The job identifier is 1064 and the job result is done.
+Apr 05 02:32:29 saikarch-p4 systemd[1]: session-1.scope: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit session-1.scope has successfully entered the 'dead' state.
+Apr 05 02:32:29 saikarch-p4 systemd[1]: session-1.scope: Consumed 1.343s CPU time.
+░░ Subject: Resources consumed by unit runtime
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit session-1.scope completed and consumed the indicated resources.
+Apr 05 02:32:29 saikarch-p4 systemd-logind[577]: Session 1 logged out. Waiting for processes to exit.
+Apr 05 02:32:29 saikarch-p4 systemd[1]: Started Simple Desktop Display Manager.
+░░ Subject: A start job for unit sddm.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sddm.service has finished successfully.
+░░ 
+░░ The job identifier is 968.
+Apr 05 02:32:29 saikarch-p4 sddm[869]: Initializing...
+Apr 05 02:32:29 saikarch-p4 sddm[869]: Starting...
+Apr 05 02:32:29 saikarch-p4 sddm[869]: Logind interface found
+Apr 05 02:32:29 saikarch-p4 sddm[869]: Adding new display on vt 1 ...
+Apr 05 02:32:29 saikarch-p4 sddm[869]: Loading theme configuration from ""
+Apr 05 02:32:29 saikarch-p4 sddm[869]: Display server starting...
+Apr 05 02:32:29 saikarch-p4 sddm[869]: Adding cookie to "/var/run/sddm/{9df5f42b-274d-4658-b94d-87ed6eefe0fb}"
+Apr 05 02:32:29 saikarch-p4 sddm[869]: Running: /usr/bin/X -nolisten tcp -background none -seat seat0 vt1 -auth /var/run/sddm/{9df5f42b-274d-4658-b94d-87ed6eefe0fb} -noreset -displayfd 17
+Apr 05 02:32:29 saikarch-p4 kernel: ACPI Warning: \_SB.NPCF._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20221020/nsarguments-61)
+Apr 05 02:32:29 saikarch-p4 kernel: ACPI Warning: \_SB.PCI0.GPP0.PEGP._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20221020/nsarguments-61)
+Apr 05 02:32:32 saikarch-p4 sddm[869]: Setting default cursor
+Apr 05 02:32:32 saikarch-p4 sddm[869]: Could not setup default cursor
+Apr 05 02:32:32 saikarch-p4 sddm[869]: Running display setup script  "/usr/share/sddm/scripts/Xsetup"
+Apr 05 02:32:32 saikarch-p4 sddm[869]: Display server started.
+Apr 05 02:32:32 saikarch-p4 sddm[869]: Socket server starting...
+Apr 05 02:32:32 saikarch-p4 sddm[869]: Socket server started.
+Apr 05 02:32:32 saikarch-p4 sddm[869]: Loading theme configuration from ""
+Apr 05 02:32:32 saikarch-p4 sddm[869]: Greeter starting...
+Apr 05 02:32:32 saikarch-p4 sddm-helper[892]: [PAM] Starting...
+Apr 05 02:32:32 saikarch-p4 sddm-helper[892]: [PAM] Authenticating...
+Apr 05 02:32:32 saikarch-p4 sddm-helper[892]: pam_unix(sddm-greeter:session): session opened for user sddm(uid=971) by (uid=0)
+Apr 05 02:32:32 saikarch-p4 sddm-helper[892]: [PAM] returning.
+Apr 05 02:32:32 saikarch-p4 systemd[1]: Created slice User Slice of UID 971.
+░░ Subject: A start job for unit user-971.slice has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit user-971.slice has finished successfully.
+░░ 
+░░ The job identifier is 1067.
+Apr 05 02:32:32 saikarch-p4 systemd[1]: Starting User Runtime Directory /run/user/971...
+░░ Subject: A start job for unit user-runtime-dir@971.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit user-runtime-dir@971.service has begun execution.
+░░ 
+░░ The job identifier is 1066.
+Apr 05 02:32:32 saikarch-p4 systemd-logind[577]: New session c1 of user sddm.
+░░ Subject: A new session c1 has been created for user sddm
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ Documentation: sd-login(3)
+░░ 
+░░ A new session with the ID c1 has been created for the user sddm.
+░░ 
+░░ The leading process of the session is 892.
+Apr 05 02:32:32 saikarch-p4 systemd[1]: Finished User Runtime Directory /run/user/971.
+░░ Subject: A start job for unit user-runtime-dir@971.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit user-runtime-dir@971.service has finished successfully.
+░░ 
+░░ The job identifier is 1066.
+Apr 05 02:32:32 saikarch-p4 systemd[1]: Starting User Manager for UID 971...
+░░ Subject: A start job for unit user@971.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit user@971.service has begun execution.
+░░ 
+░░ The job identifier is 1065.
+Apr 05 02:32:32 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.35' (uid=0 pid=894 comm="(systemd)")
+Apr 05 02:32:32 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:32:32 saikarch-p4 (systemd)[894]: pam_systemd_home(systemd-user:account): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:32:32 saikarch-p4 (systemd)[894]: pam_warn(systemd-user:setcred): function=[pam_sm_setcred] flags=0x8002 service=[systemd-user] terminal=[] user=[sddm] ruser=[<unknown>] rhost=[<unknown>]
+Apr 05 02:32:32 saikarch-p4 (systemd)[894]: pam_unix(systemd-user:session): session opened for user sddm(uid=971) by (uid=0)
+Apr 05 02:32:32 saikarch-p4 systemd[894]: Queued start job for default target Main User Target.
+Apr 05 02:32:32 saikarch-p4 systemd[894]: Created slice User Application Slice.
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 15.
+Apr 05 02:32:32 saikarch-p4 systemd[894]: Reached target Paths.
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 24.
+Apr 05 02:32:32 saikarch-p4 systemd[894]: Reached target Timers.
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 11.
+Apr 05 02:32:32 saikarch-p4 systemd[894]: Starting D-Bus User Message Bus Socket...
+░░ Subject: A start job for unit UNIT has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has begun execution.
+░░ 
+░░ The job identifier is 18.
+Apr 05 02:32:32 saikarch-p4 systemd[894]: Listening on GnuPG network certificate management daemon.
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 23.
+Apr 05 02:32:32 saikarch-p4 systemd[894]: Listening on GCR ssh-agent wrapper.
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 21.
+Apr 05 02:32:32 saikarch-p4 systemd[894]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 20.
+Apr 05 02:32:32 saikarch-p4 systemd[894]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 14.
+Apr 05 02:32:32 saikarch-p4 systemd[894]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 17.
+Apr 05 02:32:32 saikarch-p4 systemd[894]: Listening on GnuPG cryptographic agent and passphrase cache.
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 19.
+Apr 05 02:32:32 saikarch-p4 systemd[894]: Listening on p11-kit server.
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 22.
+Apr 05 02:32:32 saikarch-p4 systemd[894]: Listening on D-Bus User Message Bus Socket.
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 18.
+Apr 05 02:32:32 saikarch-p4 systemd[894]: Reached target Sockets.
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 13.
+Apr 05 02:32:32 saikarch-p4 systemd[894]: Reached target Basic System.
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 10.
+Apr 05 02:32:32 saikarch-p4 systemd[1]: Started User Manager for UID 971.
+░░ Subject: A start job for unit user@971.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit user@971.service has finished successfully.
+░░ 
+░░ The job identifier is 1065.
+Apr 05 02:32:32 saikarch-p4 systemd[894]: Starting Update XDG user dir configuration...
+░░ Subject: A start job for unit UNIT has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has begun execution.
+░░ 
+░░ The job identifier is 25.
+Apr 05 02:32:32 saikarch-p4 systemd[1]: Started Session c1 of User sddm.
+░░ Subject: A start job for unit session-c1.scope has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit session-c1.scope has finished successfully.
+░░ 
+░░ The job identifier is 1164.
+Apr 05 02:32:32 saikarch-p4 systemd[894]: Finished Update XDG user dir configuration.
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 25.
+Apr 05 02:32:32 saikarch-p4 systemd[894]: Reached target Main User Target.
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 9.
+Apr 05 02:32:32 saikarch-p4 systemd[894]: Startup finished in 61ms.
+░░ Subject: User manager start-up is now complete
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The user manager instance for user 971 has been started. All services queued
+░░ for starting have been started. Note that other services might still be starting
+░░ up or be started at any later time.
+░░ 
+░░ Startup of the manager took 61087 microseconds.
+Apr 05 02:32:32 saikarch-p4 sddm[869]: Greeter session started successfully
+Apr 05 02:32:32 saikarch-p4 sddm-greeter[902]: High-DPI autoscaling not Enabled
+Apr 05 02:32:32 saikarch-p4 sddm-greeter[902]: Reading from "/usr/share/wayland-sessions/hyprland.desktop"
+Apr 05 02:32:32 saikarch-p4 sddm-greeter[902]: Loading theme configuration from "qrc:/theme/theme.conf"
+Apr 05 02:32:32 saikarch-p4 systemd[894]: Created slice User Core Session Slice.
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 44.
+Apr 05 02:32:32 saikarch-p4 systemd[894]: Starting D-Bus User Message Bus...
+░░ Subject: A start job for unit UNIT has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has begun execution.
+░░ 
+░░ The job identifier is 28.
+Apr 05 02:32:32 saikarch-p4 systemd[894]: Started D-Bus User Message Bus.
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 28.
+Apr 05 02:32:32 saikarch-p4 sddm-greeter[902]: Connected to the daemon.
+Apr 05 02:32:32 saikarch-p4 sddm-greeter[902]: QFont::fromString: Invalid description '(empty)'
+Apr 05 02:32:32 saikarch-p4 sddm[869]: Message received from greeter: Connect
+Apr 05 02:32:32 saikarch-p4 sddm-greeter[902]: Loading qrc:/theme/Main.qml...
+Apr 05 02:32:32 saikarch-p4 sddm-greeter[902]: file:///usr/lib/qt/qml/SddmComponents/LayoutBox.qml:35:5: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+Apr 05 02:32:32 saikarch-p4 sddm-greeter[902]: qrc:/theme/Main.qml:41:5: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+Apr 05 02:32:32 saikarch-p4 sddm-greeter[902]: Adding view for "eDP" QRect(0,0 2560x1600)
+Apr 05 02:32:32 saikarch-p4 sddm-greeter[902]: Loading qrc:/theme/Main.qml...
+Apr 05 02:32:32 saikarch-p4 sddm-greeter[902]: file:///usr/lib/qt/qml/SddmComponents/LayoutBox.qml:35:5: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+Apr 05 02:32:32 saikarch-p4 sddm-greeter[902]: qrc:/theme/Main.qml:41:5: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+Apr 05 02:32:32 saikarch-p4 sddm-greeter[902]: Adding view for "DisplayPort-6" QRect(2560,0 2560x1440)
+Apr 05 02:32:32 saikarch-p4 sddm-greeter[902]: Message received from daemon: Capabilities
+Apr 05 02:32:32 saikarch-p4 sddm-greeter[902]: Message received from daemon: HostName
+Apr 05 02:32:39 saikarch-p4 sddm-greeter[902]: Reading from "/usr/share/wayland-sessions/hyprland.desktop"
+Apr 05 02:32:39 saikarch-p4 sddm[869]: Message received from greeter: Login
+Apr 05 02:32:39 saikarch-p4 sddm[869]: Reading from "/usr/share/wayland-sessions/hyprland.desktop"
+Apr 05 02:32:39 saikarch-p4 sddm[869]: Reading from "/usr/share/wayland-sessions/hyprland.desktop"
+Apr 05 02:32:39 saikarch-p4 sddm[869]: Session "/usr/share/wayland-sessions/hyprland.desktop" selected, command: "Hyprland"
+Apr 05 02:32:39 saikarch-p4 sddm-helper[926]: [PAM] Starting...
+Apr 05 02:32:39 saikarch-p4 sddm-helper[926]: [PAM] Authenticating...
+Apr 05 02:32:39 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.37' (uid=0 pid=926 comm="/usr/lib/sddm/sddm-helper --socket /tmp/sddm-authd")
+Apr 05 02:32:39 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:32:39 saikarch-p4 sddm-helper[926]: pam_systemd_home(sddm:auth): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:32:39 saikarch-p4 sddm-helper[926]: [PAM] Preparing to converse...
+Apr 05 02:32:39 saikarch-p4 sddm-helper[926]: [PAM] Conversation with 1 messages
+Apr 05 02:32:39 saikarch-p4 sddm-helper[926]: [PAM] returning.
+Apr 05 02:32:39 saikarch-p4 sddm[869]: Authenticated successfully
+Apr 05 02:32:39 saikarch-p4 sddm-greeter[902]: Message received from daemon: LoginSucceeded
+Apr 05 02:32:39 saikarch-p4 sddm-helper[926]: pam_unix(sddm:session): session opened for user saik(uid=1000) by (uid=0)
+Apr 05 02:32:39 saikarch-p4 systemd-logind[577]: New session 4 of user saik.
+░░ Subject: A new session 4 has been created for user saik
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ Documentation: sd-login(3)
+░░ 
+░░ A new session with the ID 4 has been created for the user saik.
+░░ 
+░░ The leading process of the session is 926.
+Apr 05 02:32:39 saikarch-p4 sddm-helper[892]: [PAM] Closing session
+Apr 05 02:32:39 saikarch-p4 sddm-helper[892]: [PAM] Ended.
+Apr 05 02:32:39 saikarch-p4 sddm-helper[892]: pam_unix(sddm-greeter:session): session closed for user sddm
+Apr 05 02:32:39 saikarch-p4 sddm[869]: Auth: sddm-helper exited successfully
+Apr 05 02:32:39 saikarch-p4 sddm[869]: Greeter stopped.
+Apr 05 02:32:39 saikarch-p4 systemd[1]: Started Session 4 of User saik.
+░░ Subject: A start job for unit session-4.scope has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit session-4.scope has finished successfully.
+░░ 
+░░ The job identifier is 1264.
+Apr 05 02:32:39 saikarch-p4 systemd[1]: session-c1.scope: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit session-c1.scope has successfully entered the 'dead' state.
+Apr 05 02:32:39 saikarch-p4 systemd-logind[577]: Session c1 logged out. Waiting for processes to exit.
+Apr 05 02:32:39 saikarch-p4 sddm-helper[926]: Starting: "/usr/share/sddm/scripts/wayland-session Hyprland"
+Apr 05 02:32:39 saikarch-p4 sddm-helper[927]: Jumping to VT 2
+Apr 05 02:32:39 saikarch-p4 sddm-helper[927]: VT mode didn't need to be fixed
+Apr 05 02:32:39 saikarch-p4 sddm[869]: Session started
+Apr 05 02:32:40 saikarch-p4 systemd[644]: Created slice User Core Session Slice.
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 33.
+Apr 05 02:32:40 saikarch-p4 systemd[644]: Starting D-Bus User Message Bus...
+░░ Subject: A start job for unit UNIT has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has begun execution.
+░░ 
+░░ The job identifier is 28.
+Apr 05 02:32:41 saikarch-p4 systemd[644]: Started D-Bus User Message Bus.
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 28.
+Apr 05 02:32:41 saikarch-p4 dbus-daemon[954]: [session uid=1000 pid=954] Successfully activated service 'org.freedesktop.systemd1'
+Apr 05 02:32:53 saikarch-p4 sddm-helper[926]: [PAM] Closing session
+Apr 05 02:32:53 saikarch-p4 sddm-helper[926]: pam_unix(sddm:session): session closed for user saik
+Apr 05 02:32:54 saikarch-p4 sddm-helper[926]: [PAM] Ended.
+Apr 05 02:32:54 saikarch-p4 sddm[869]: Auth: sddm-helper exited successfully
+Apr 05 02:32:54 saikarch-p4 sddm[869]: Socket server stopping...
+Apr 05 02:32:54 saikarch-p4 sddm[869]: Socket server stopped.
+Apr 05 02:32:54 saikarch-p4 sddm[869]: Display server stopping...
+Apr 05 02:32:54 saikarch-p4 systemd[1]: session-4.scope: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit session-4.scope has successfully entered the 'dead' state.
+Apr 05 02:32:54 saikarch-p4 systemd[1]: session-4.scope: Consumed 1.361s CPU time.
+░░ Subject: Resources consumed by unit runtime
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit session-4.scope completed and consumed the indicated resources.
+Apr 05 02:32:54 saikarch-p4 systemd-logind[577]: Session 4 logged out. Waiting for processes to exit.
+Apr 05 02:32:54 saikarch-p4 sddm[869]: Display server stopped.
+Apr 05 02:32:54 saikarch-p4 sddm[869]: Running display stop script  "/usr/share/sddm/scripts/Xstop"
+Apr 05 02:32:54 saikarch-p4 sddm[869]: Removing display ":0" ...
+Apr 05 02:32:54 saikarch-p4 sddm[869]: Adding new display on vt 1 ...
+Apr 05 02:32:54 saikarch-p4 sddm[869]: Loading theme configuration from ""
+Apr 05 02:32:54 saikarch-p4 sddm[869]: Display server starting...
+Apr 05 02:32:54 saikarch-p4 sddm[869]: Adding cookie to "/var/run/sddm/{2c457951-b981-49bd-acf8-da6e07838706}"
+Apr 05 02:32:54 saikarch-p4 sddm[869]: Running: /usr/bin/X -nolisten tcp -background none -seat seat0 vt1 -auth /var/run/sddm/{2c457951-b981-49bd-acf8-da6e07838706} -noreset -displayfd 18
+Apr 05 02:32:56 saikarch-p4 sddm[869]: Setting default cursor
+Apr 05 02:32:56 saikarch-p4 sddm[869]: Could not setup default cursor
+Apr 05 02:32:56 saikarch-p4 sddm[869]: Running display setup script  "/usr/share/sddm/scripts/Xsetup"
+Apr 05 02:32:56 saikarch-p4 sddm[869]: Display server started.
+Apr 05 02:32:56 saikarch-p4 sddm[869]: Socket server starting...
+Apr 05 02:32:56 saikarch-p4 sddm[869]: Socket server started.
+Apr 05 02:32:56 saikarch-p4 sddm[869]: Loading theme configuration from ""
+Apr 05 02:32:56 saikarch-p4 sddm[869]: Greeter starting...
+Apr 05 02:32:56 saikarch-p4 sddm-helper[1044]: [PAM] Starting...
+Apr 05 02:32:56 saikarch-p4 sddm-helper[1044]: [PAM] Authenticating...
+Apr 05 02:32:56 saikarch-p4 sddm-helper[1044]: pam_unix(sddm-greeter:session): session opened for user sddm(uid=971) by (uid=0)
+Apr 05 02:32:56 saikarch-p4 sddm-helper[1044]: [PAM] returning.
+Apr 05 02:32:56 saikarch-p4 systemd-logind[577]: New session c2 of user sddm.
+░░ Subject: A new session c2 has been created for user sddm
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ Documentation: sd-login(3)
+░░ 
+░░ A new session with the ID c2 has been created for the user sddm.
+░░ 
+░░ The leading process of the session is 1044.
+Apr 05 02:32:57 saikarch-p4 systemd[1]: Started Session c2 of User sddm.
+░░ Subject: A start job for unit session-c2.scope has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit session-c2.scope has finished successfully.
+░░ 
+░░ The job identifier is 1364.
+Apr 05 02:32:57 saikarch-p4 sddm[869]: Greeter session started successfully
+Apr 05 02:32:57 saikarch-p4 sddm-greeter[1045]: High-DPI autoscaling not Enabled
+Apr 05 02:32:57 saikarch-p4 sddm-greeter[1045]: Reading from "/usr/share/wayland-sessions/hyprland.desktop"
+Apr 05 02:32:57 saikarch-p4 sddm-greeter[1045]: Loading theme configuration from "qrc:/theme/theme.conf"
+Apr 05 02:32:57 saikarch-p4 sddm-greeter[1045]: Connected to the daemon.
+Apr 05 02:32:57 saikarch-p4 sddm-greeter[1045]: QFont::fromString: Invalid description '(empty)'
+Apr 05 02:32:57 saikarch-p4 sddm[869]: Message received from greeter: Connect
+Apr 05 02:32:57 saikarch-p4 sddm-greeter[1045]: Loading qrc:/theme/Main.qml...
+Apr 05 02:32:57 saikarch-p4 sddm-greeter[1045]: file:///usr/lib/qt/qml/SddmComponents/LayoutBox.qml:35:5: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+Apr 05 02:32:57 saikarch-p4 sddm-greeter[1045]: qrc:/theme/Main.qml:41:5: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+Apr 05 02:32:57 saikarch-p4 sddm-greeter[1045]: Adding view for "eDP" QRect(0,0 2560x1600)
+Apr 05 02:32:57 saikarch-p4 sddm-greeter[1045]: Loading qrc:/theme/Main.qml...
+Apr 05 02:32:57 saikarch-p4 sddm-greeter[1045]: file:///usr/lib/qt/qml/SddmComponents/LayoutBox.qml:35:5: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+Apr 05 02:32:57 saikarch-p4 sddm-greeter[1045]: qrc:/theme/Main.qml:41:5: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+Apr 05 02:32:57 saikarch-p4 sddm-greeter[1045]: Adding view for "DisplayPort-6" QRect(2560,0 2560x1440)
+Apr 05 02:32:57 saikarch-p4 sddm-greeter[1045]: Message received from daemon: Capabilities
+Apr 05 02:32:57 saikarch-p4 sddm-greeter[1045]: Message received from daemon: HostName
+Apr 05 02:32:59 saikarch-p4 sddm-greeter[1045]: Reading from "/usr/share/wayland-sessions/hyprland.desktop"
+Apr 05 02:32:59 saikarch-p4 sddm[869]: Message received from greeter: Login
+Apr 05 02:32:59 saikarch-p4 sddm[869]: Reading from "/usr/share/wayland-sessions/hyprland.desktop"
+Apr 05 02:32:59 saikarch-p4 sddm[869]: Reading from "/usr/share/wayland-sessions/hyprland.desktop"
+Apr 05 02:32:59 saikarch-p4 sddm[869]: Session "/usr/share/wayland-sessions/hyprland.desktop" selected, command: "Hyprland"
+Apr 05 02:32:59 saikarch-p4 sddm-helper[1064]: [PAM] Starting...
+Apr 05 02:32:59 saikarch-p4 sddm-helper[1064]: [PAM] Authenticating...
+Apr 05 02:32:59 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.43' (uid=0 pid=1064 comm="/usr/lib/sddm/sddm-helper --socket /tmp/sddm-authd")
+Apr 05 02:32:59 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:32:59 saikarch-p4 sddm-helper[1064]: pam_systemd_home(sddm:auth): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:32:59 saikarch-p4 sddm-helper[1064]: [PAM] Preparing to converse...
+Apr 05 02:32:59 saikarch-p4 sddm-helper[1064]: [PAM] Conversation with 1 messages
+Apr 05 02:32:59 saikarch-p4 sddm-helper[1064]: [PAM] returning.
+Apr 05 02:32:59 saikarch-p4 sddm[869]: Authenticated successfully
+Apr 05 02:32:59 saikarch-p4 sddm-greeter[1045]: Message received from daemon: LoginSucceeded
+Apr 05 02:32:59 saikarch-p4 sddm-helper[1064]: pam_unix(sddm:session): session opened for user saik(uid=1000) by (uid=0)
+Apr 05 02:32:59 saikarch-p4 systemd-logind[577]: New session 5 of user saik.
+░░ Subject: A new session 5 has been created for user saik
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ Documentation: sd-login(3)
+░░ 
+░░ A new session with the ID 5 has been created for the user saik.
+░░ 
+░░ The leading process of the session is 1064.
+Apr 05 02:32:59 saikarch-p4 sddm-helper[1044]: [PAM] Closing session
+Apr 05 02:32:59 saikarch-p4 sddm-helper[1044]: [PAM] Ended.
+Apr 05 02:32:59 saikarch-p4 sddm-helper[1044]: pam_unix(sddm-greeter:session): session closed for user sddm
+Apr 05 02:32:59 saikarch-p4 sddm[869]: Auth: sddm-helper exited successfully
+Apr 05 02:32:59 saikarch-p4 sddm[869]: Greeter stopped.
+Apr 05 02:32:59 saikarch-p4 systemd[1]: Started Session 5 of User saik.
+░░ Subject: A start job for unit session-5.scope has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit session-5.scope has finished successfully.
+░░ 
+░░ The job identifier is 1464.
+Apr 05 02:32:59 saikarch-p4 systemd[1]: session-c2.scope: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit session-c2.scope has successfully entered the 'dead' state.
+Apr 05 02:32:59 saikarch-p4 systemd-logind[577]: Session c2 logged out. Waiting for processes to exit.
+Apr 05 02:32:59 saikarch-p4 sddm-helper[1064]: Starting: "/usr/share/sddm/scripts/wayland-session Hyprland"
+Apr 05 02:32:59 saikarch-p4 sddm-helper[1065]: Jumping to VT 2
+Apr 05 02:32:59 saikarch-p4 sddm-helper[1065]: VT mode didn't need to be fixed
+Apr 05 02:33:00 saikarch-p4 sddm[869]: Session started
+Apr 05 02:33:09 saikarch-p4 sddm-helper[1064]: [PAM] Closing session
+Apr 05 02:33:09 saikarch-p4 sddm-helper[1064]: pam_unix(sddm:session): session closed for user saik
+Apr 05 02:33:10 saikarch-p4 sddm-helper[1064]: [PAM] Ended.
+Apr 05 02:33:10 saikarch-p4 sddm[869]: Auth: sddm-helper exited successfully
+Apr 05 02:33:10 saikarch-p4 sddm[869]: Socket server stopping...
+Apr 05 02:33:10 saikarch-p4 sddm[869]: Socket server stopped.
+Apr 05 02:33:10 saikarch-p4 sddm[869]: Display server stopping...
+Apr 05 02:33:10 saikarch-p4 systemd[1]: session-5.scope: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit session-5.scope has successfully entered the 'dead' state.
+Apr 05 02:33:10 saikarch-p4 systemd-logind[577]: Session 5 logged out. Waiting for processes to exit.
+Apr 05 02:33:10 saikarch-p4 sddm[869]: Display server stopped.
+Apr 05 02:33:10 saikarch-p4 sddm[869]: Running display stop script  "/usr/share/sddm/scripts/Xstop"
+Apr 05 02:33:10 saikarch-p4 sddm[869]: Removing display ":0" ...
+Apr 05 02:33:10 saikarch-p4 sddm[869]: Adding new display on vt 1 ...
+Apr 05 02:33:10 saikarch-p4 sddm[869]: Loading theme configuration from ""
+Apr 05 02:33:10 saikarch-p4 sddm[869]: Display server starting...
+Apr 05 02:33:10 saikarch-p4 sddm[869]: Adding cookie to "/var/run/sddm/{6b3c2838-eab7-41e5-ade1-4eea47b20c0f}"
+Apr 05 02:33:10 saikarch-p4 sddm[869]: Running: /usr/bin/X -nolisten tcp -background none -seat seat0 vt1 -auth /var/run/sddm/{6b3c2838-eab7-41e5-ade1-4eea47b20c0f} -noreset -displayfd 18
+Apr 05 02:33:13 saikarch-p4 sddm[869]: Setting default cursor
+Apr 05 02:33:13 saikarch-p4 sddm[869]: Could not setup default cursor
+Apr 05 02:33:13 saikarch-p4 sddm[869]: Running display setup script  "/usr/share/sddm/scripts/Xsetup"
+Apr 05 02:33:13 saikarch-p4 sddm[869]: Display server started.
+Apr 05 02:33:13 saikarch-p4 sddm[869]: Socket server starting...
+Apr 05 02:33:13 saikarch-p4 sddm[869]: Socket server started.
+Apr 05 02:33:13 saikarch-p4 sddm[869]: Loading theme configuration from ""
+Apr 05 02:33:13 saikarch-p4 sddm[869]: Greeter starting...
+Apr 05 02:33:13 saikarch-p4 sddm-helper[1179]: [PAM] Starting...
+Apr 05 02:33:13 saikarch-p4 sddm-helper[1179]: [PAM] Authenticating...
+Apr 05 02:33:13 saikarch-p4 sddm-helper[1179]: pam_unix(sddm-greeter:session): session opened for user sddm(uid=971) by (uid=0)
+Apr 05 02:33:13 saikarch-p4 sddm-helper[1179]: [PAM] returning.
+Apr 05 02:33:13 saikarch-p4 systemd-logind[577]: New session c3 of user sddm.
+░░ Subject: A new session c3 has been created for user sddm
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ Documentation: sd-login(3)
+░░ 
+░░ A new session with the ID c3 has been created for the user sddm.
+░░ 
+░░ The leading process of the session is 1179.
+Apr 05 02:33:13 saikarch-p4 systemd[1]: Started Session c3 of User sddm.
+░░ Subject: A start job for unit session-c3.scope has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit session-c3.scope has finished successfully.
+░░ 
+░░ The job identifier is 1564.
+Apr 05 02:33:13 saikarch-p4 sddm[869]: Greeter session started successfully
+Apr 05 02:33:13 saikarch-p4 sddm-greeter[1180]: High-DPI autoscaling not Enabled
+Apr 05 02:33:13 saikarch-p4 sddm-greeter[1180]: Reading from "/usr/share/wayland-sessions/hyprland.desktop"
+Apr 05 02:33:13 saikarch-p4 sddm-greeter[1180]: Loading theme configuration from "qrc:/theme/theme.conf"
+Apr 05 02:33:13 saikarch-p4 sddm-greeter[1180]: Connected to the daemon.
+Apr 05 02:33:13 saikarch-p4 sddm-greeter[1180]: QFont::fromString: Invalid description '(empty)'
+Apr 05 02:33:13 saikarch-p4 sddm[869]: Message received from greeter: Connect
+Apr 05 02:33:13 saikarch-p4 sddm-greeter[1180]: Loading qrc:/theme/Main.qml...
+Apr 05 02:33:13 saikarch-p4 sddm-greeter[1180]: file:///usr/lib/qt/qml/SddmComponents/LayoutBox.qml:35:5: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+Apr 05 02:33:13 saikarch-p4 sddm-greeter[1180]: qrc:/theme/Main.qml:41:5: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+Apr 05 02:33:13 saikarch-p4 sddm-greeter[1180]: Adding view for "eDP" QRect(0,0 2560x1600)
+Apr 05 02:33:13 saikarch-p4 sddm-greeter[1180]: Loading qrc:/theme/Main.qml...
+Apr 05 02:33:13 saikarch-p4 sddm-greeter[1180]: file:///usr/lib/qt/qml/SddmComponents/LayoutBox.qml:35:5: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+Apr 05 02:33:13 saikarch-p4 sddm-greeter[1180]: qrc:/theme/Main.qml:41:5: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+Apr 05 02:33:13 saikarch-p4 sddm-greeter[1180]: Adding view for "DisplayPort-6" QRect(2560,0 2560x1440)
+Apr 05 02:33:13 saikarch-p4 sddm-greeter[1180]: Message received from daemon: Capabilities
+Apr 05 02:33:13 saikarch-p4 sddm-greeter[1180]: Message received from daemon: HostName
+Apr 05 02:33:15 saikarch-p4 sddm-greeter[1180]: Reading from "/usr/share/wayland-sessions/hyprland.desktop"
+Apr 05 02:33:15 saikarch-p4 sddm[869]: Message received from greeter: Login
+Apr 05 02:33:15 saikarch-p4 sddm[869]: Reading from "/usr/share/wayland-sessions/hyprland.desktop"
+Apr 05 02:33:15 saikarch-p4 sddm[869]: Reading from "/usr/share/wayland-sessions/hyprland.desktop"
+Apr 05 02:33:15 saikarch-p4 sddm[869]: Session "/usr/share/wayland-sessions/hyprland.desktop" selected, command: "Hyprland"
+Apr 05 02:33:15 saikarch-p4 sddm-helper[1200]: [PAM] Starting...
+Apr 05 02:33:15 saikarch-p4 sddm-helper[1200]: [PAM] Authenticating...
+Apr 05 02:33:15 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.49' (uid=0 pid=1200 comm="/usr/lib/sddm/sddm-helper --socket /tmp/sddm-authd")
+Apr 05 02:33:15 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:33:15 saikarch-p4 sddm-helper[1200]: pam_systemd_home(sddm:auth): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:33:15 saikarch-p4 sddm-helper[1200]: [PAM] Preparing to converse...
+Apr 05 02:33:15 saikarch-p4 sddm-helper[1200]: [PAM] Conversation with 1 messages
+Apr 05 02:33:15 saikarch-p4 sddm-helper[1200]: [PAM] returning.
+Apr 05 02:33:15 saikarch-p4 sddm[869]: Authenticated successfully
+Apr 05 02:33:15 saikarch-p4 sddm-greeter[1180]: Message received from daemon: LoginSucceeded
+Apr 05 02:33:15 saikarch-p4 sddm-helper[1200]: pam_unix(sddm:session): session opened for user saik(uid=1000) by (uid=0)
+Apr 05 02:33:15 saikarch-p4 systemd-logind[577]: New session 6 of user saik.
+░░ Subject: A new session 6 has been created for user saik
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ Documentation: sd-login(3)
+░░ 
+░░ A new session with the ID 6 has been created for the user saik.
+░░ 
+░░ The leading process of the session is 1200.
+Apr 05 02:33:15 saikarch-p4 systemd[1]: Started Session 6 of User saik.
+░░ Subject: A start job for unit session-6.scope has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit session-6.scope has finished successfully.
+░░ 
+░░ The job identifier is 1664.
+Apr 05 02:33:15 saikarch-p4 sddm-helper[1200]: Starting: "/usr/share/sddm/scripts/wayland-session Hyprland"
+Apr 05 02:33:15 saikarch-p4 sddm-helper[1201]: Jumping to VT 2
+Apr 05 02:33:15 saikarch-p4 sddm-helper[1201]: VT mode didn't need to be fixed
+Apr 05 02:33:15 saikarch-p4 sddm-helper[1179]: [PAM] Closing session
+Apr 05 02:33:15 saikarch-p4 sddm-helper[1179]: pam_unix(sddm-greeter:session): session closed for user sddm
+Apr 05 02:33:15 saikarch-p4 sddm-helper[1179]: [PAM] Ended.
+Apr 05 02:33:15 saikarch-p4 sddm[869]: Auth: sddm-helper exited successfully
+Apr 05 02:33:15 saikarch-p4 sddm[869]: Greeter stopped.
+Apr 05 02:33:15 saikarch-p4 systemd[1]: session-c3.scope: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit session-c3.scope has successfully entered the 'dead' state.
+Apr 05 02:33:15 saikarch-p4 systemd-logind[577]: Session c3 logged out. Waiting for processes to exit.
+Apr 05 02:33:16 saikarch-p4 sddm[869]: Session started
+Apr 05 02:34:14 saikarch-p4 sddm-helper[1200]: [PAM] Closing session
+Apr 05 02:34:14 saikarch-p4 sddm-helper[1200]: pam_unix(sddm:session): session closed for user saik
+Apr 05 02:34:15 saikarch-p4 sddm-helper[1200]: [PAM] Ended.
+Apr 05 02:34:15 saikarch-p4 sddm[869]: Auth: sddm-helper exited successfully
+Apr 05 02:34:15 saikarch-p4 sddm[869]: Socket server stopping...
+Apr 05 02:34:15 saikarch-p4 sddm[869]: Socket server stopped.
+Apr 05 02:34:15 saikarch-p4 sddm[869]: Display server stopping...
+Apr 05 02:34:15 saikarch-p4 systemd[1]: session-6.scope: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit session-6.scope has successfully entered the 'dead' state.
+Apr 05 02:34:15 saikarch-p4 systemd[1]: session-6.scope: Consumed 1.592s CPU time.
+░░ Subject: Resources consumed by unit runtime
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit session-6.scope completed and consumed the indicated resources.
+Apr 05 02:34:15 saikarch-p4 systemd-logind[577]: Session 6 logged out. Waiting for processes to exit.
+Apr 05 02:34:15 saikarch-p4 sddm[869]: Display server stopped.
+Apr 05 02:34:15 saikarch-p4 sddm[869]: Running display stop script  "/usr/share/sddm/scripts/Xstop"
+Apr 05 02:34:15 saikarch-p4 sddm[869]: Removing display ":0" ...
+Apr 05 02:34:15 saikarch-p4 sddm[869]: Adding new display on vt 1 ...
+Apr 05 02:34:15 saikarch-p4 sddm[869]: Loading theme configuration from ""
+Apr 05 02:34:15 saikarch-p4 sddm[869]: Display server starting...
+Apr 05 02:34:15 saikarch-p4 sddm[869]: Adding cookie to "/var/run/sddm/{b0a1b1be-18e6-403a-93f3-e26a17227020}"
+Apr 05 02:34:15 saikarch-p4 sddm[869]: Running: /usr/bin/X -nolisten tcp -background none -seat seat0 vt1 -auth /var/run/sddm/{b0a1b1be-18e6-403a-93f3-e26a17227020} -noreset -displayfd 18
+Apr 05 02:34:16 saikarch-p4 kernel: pcieport 0000:00:01.1: AER: Corrected error received: 0000:01:00.0
+Apr 05 02:34:16 saikarch-p4 kernel: nvidia 0000:01:00.0: PCIe Bus Error: severity=Corrected, type=Data Link Layer, (Receiver ID)
+Apr 05 02:34:16 saikarch-p4 kernel: nvidia 0000:01:00.0:   device [10de:2520] error status/mask=00000040/0000a000
+Apr 05 02:34:16 saikarch-p4 kernel: nvidia 0000:01:00.0:    [ 6] BadTLP                
+Apr 05 02:34:18 saikarch-p4 sddm[869]: Setting default cursor
+Apr 05 02:34:18 saikarch-p4 sddm[869]: Could not setup default cursor
+Apr 05 02:34:18 saikarch-p4 sddm[869]: Running display setup script  "/usr/share/sddm/scripts/Xsetup"
+Apr 05 02:34:18 saikarch-p4 sddm[869]: Display server started.
+Apr 05 02:34:18 saikarch-p4 sddm[869]: Socket server starting...
+Apr 05 02:34:18 saikarch-p4 sddm[869]: Socket server started.
+Apr 05 02:34:18 saikarch-p4 sddm[869]: Loading theme configuration from ""
+Apr 05 02:34:18 saikarch-p4 sddm[869]: Greeter starting...
+Apr 05 02:34:18 saikarch-p4 sddm-helper[1327]: [PAM] Starting...
+Apr 05 02:34:18 saikarch-p4 sddm-helper[1327]: [PAM] Authenticating...
+Apr 05 02:34:18 saikarch-p4 sddm-helper[1327]: pam_unix(sddm-greeter:session): session opened for user sddm(uid=971) by (uid=0)
+Apr 05 02:34:18 saikarch-p4 sddm-helper[1327]: [PAM] returning.
+Apr 05 02:34:18 saikarch-p4 systemd-logind[577]: New session c4 of user sddm.
+░░ Subject: A new session c4 has been created for user sddm
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ Documentation: sd-login(3)
+░░ 
+░░ A new session with the ID c4 has been created for the user sddm.
+░░ 
+░░ The leading process of the session is 1327.
+Apr 05 02:34:18 saikarch-p4 systemd[1]: Started Session c4 of User sddm.
+░░ Subject: A start job for unit session-c4.scope has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit session-c4.scope has finished successfully.
+░░ 
+░░ The job identifier is 1764.
+Apr 05 02:34:18 saikarch-p4 sddm[869]: Greeter session started successfully
+Apr 05 02:34:18 saikarch-p4 sddm-greeter[1328]: High-DPI autoscaling not Enabled
+Apr 05 02:34:18 saikarch-p4 sddm-greeter[1328]: Reading from "/usr/share/wayland-sessions/hyprland.desktop"
+Apr 05 02:34:18 saikarch-p4 sddm-greeter[1328]: Loading theme configuration from "qrc:/theme/theme.conf"
+Apr 05 02:34:18 saikarch-p4 sddm-greeter[1328]: Connected to the daemon.
+Apr 05 02:34:18 saikarch-p4 sddm-greeter[1328]: QFont::fromString: Invalid description '(empty)'
+Apr 05 02:34:18 saikarch-p4 sddm[869]: Message received from greeter: Connect
+Apr 05 02:34:18 saikarch-p4 sddm-greeter[1328]: Loading qrc:/theme/Main.qml...
+Apr 05 02:34:18 saikarch-p4 sddm-greeter[1328]: file:///usr/lib/qt/qml/SddmComponents/LayoutBox.qml:35:5: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+Apr 05 02:34:18 saikarch-p4 sddm-greeter[1328]: qrc:/theme/Main.qml:41:5: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+Apr 05 02:34:18 saikarch-p4 sddm-greeter[1328]: Adding view for "eDP" QRect(0,0 2560x1600)
+Apr 05 02:34:18 saikarch-p4 sddm-greeter[1328]: Loading qrc:/theme/Main.qml...
+Apr 05 02:34:18 saikarch-p4 sddm-greeter[1328]: file:///usr/lib/qt/qml/SddmComponents/LayoutBox.qml:35:5: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+Apr 05 02:34:18 saikarch-p4 sddm-greeter[1328]: qrc:/theme/Main.qml:41:5: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+Apr 05 02:34:18 saikarch-p4 sddm-greeter[1328]: Adding view for "DisplayPort-6" QRect(2560,0 2560x1440)
+Apr 05 02:34:18 saikarch-p4 sddm-greeter[1328]: Message received from daemon: Capabilities
+Apr 05 02:34:18 saikarch-p4 sddm-greeter[1328]: Message received from daemon: HostName
+Apr 05 02:34:20 saikarch-p4 systemd[1]: Started Getty on tty2.
+░░ Subject: A start job for unit getty@tty2.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit getty@tty2.service has finished successfully.
+░░ 
+░░ The job identifier is 1864.
+Apr 05 02:34:21 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.55' (uid=0 pid=1347 comm="/bin/login -p --     ")
+Apr 05 02:34:21 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:34:21 saikarch-p4 login[1347]: pam_systemd_home(login:auth): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:34:22 saikarch-p4 login[1347]: pam_unix(login:session): session opened for user saik(uid=1000) by LOGIN(uid=0)
+Apr 05 02:34:22 saikarch-p4 systemd-logind[577]: New session 7 of user saik.
+░░ Subject: A new session 7 has been created for user saik
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ Documentation: sd-login(3)
+░░ 
+░░ A new session with the ID 7 has been created for the user saik.
+░░ 
+░░ The leading process of the session is 1347.
+Apr 05 02:34:22 saikarch-p4 systemd[1]: Started Session 7 of User saik.
+░░ Subject: A start job for unit session-7.scope has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit session-7.scope has finished successfully.
+░░ 
+░░ The job identifier is 1963.
+Apr 05 02:34:22 saikarch-p4 login[1347]: LOGIN ON tty2 BY saik
+Apr 05 02:34:26 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.56' (uid=0 pid=1354 comm="sudo pacman -Syu")
+Apr 05 02:34:26 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:34:26 saikarch-p4 sudo[1354]: pam_systemd_home(sudo:auth): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:34:27 saikarch-p4 sudo[1354]:     saik : TTY=tty2 ; PWD=/home/saik ; USER=root ; COMMAND=/usr/bin/pacman -Syu
+Apr 05 02:34:27 saikarch-p4 sudo[1354]: pam_unix(sudo:session): session opened for user root(uid=0) by saik(uid=1000)
+Apr 05 02:34:30 saikarch-p4 sudo[1354]: pam_unix(sudo:session): session closed for user root
+Apr 05 02:34:33 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.57' (uid=0 pid=1359 comm="sudo pacman -S kitty")
+Apr 05 02:34:33 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:34:33 saikarch-p4 sudo[1359]: pam_systemd_home(sudo:account): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:34:33 saikarch-p4 sudo[1359]:     saik : TTY=tty2 ; PWD=/home/saik ; USER=root ; COMMAND=/usr/bin/pacman -S kitty
+Apr 05 02:34:33 saikarch-p4 sudo[1359]: pam_unix(sudo:session): session opened for user root(uid=0) by saik(uid=1000)
+Apr 05 02:34:39 saikarch-p4 sudo[1359]: pam_unix(sudo:session): session closed for user root
+Apr 05 02:34:43 saikarch-p4 sddm-greeter[1328]: Reading from "/usr/share/wayland-sessions/hyprland.desktop"
+Apr 05 02:34:43 saikarch-p4 sddm[869]: Message received from greeter: Login
+Apr 05 02:34:43 saikarch-p4 sddm[869]: Reading from "/usr/share/wayland-sessions/hyprland.desktop"
+Apr 05 02:34:43 saikarch-p4 sddm[869]: Reading from "/usr/share/wayland-sessions/hyprland.desktop"
+Apr 05 02:34:43 saikarch-p4 sddm[869]: Session "/usr/share/wayland-sessions/hyprland.desktop" selected, command: "Hyprland"
+Apr 05 02:34:43 saikarch-p4 sddm-helper[1414]: [PAM] Starting...
+Apr 05 02:34:43 saikarch-p4 sddm-helper[1414]: [PAM] Authenticating...
+Apr 05 02:34:43 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.58' (uid=0 pid=1414 comm="/usr/lib/sddm/sddm-helper --socket /tmp/sddm-authd")
+Apr 05 02:34:43 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:34:43 saikarch-p4 sddm-helper[1414]: pam_systemd_home(sddm:auth): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:34:43 saikarch-p4 sddm-helper[1414]: [PAM] Preparing to converse...
+Apr 05 02:34:43 saikarch-p4 sddm-helper[1414]: [PAM] Conversation with 1 messages
+Apr 05 02:34:43 saikarch-p4 sddm-helper[1414]: pam_unix(sddm:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=saik
+Apr 05 02:34:46 saikarch-p4 sddm-helper[1414]: [PAM] authenticate: Authentication failure
+Apr 05 02:34:46 saikarch-p4 sddm-helper[1414]: [PAM] returning.
+Apr 05 02:34:46 saikarch-p4 sddm[869]: Authentication error: "Authentication failure"
+Apr 05 02:34:46 saikarch-p4 sddm-greeter[1328]: Message received from daemon: LoginFailed
+Apr 05 02:34:46 saikarch-p4 sddm-helper[1414]: [PAM] Ended.
+Apr 05 02:34:46 saikarch-p4 sddm[869]: Auth: sddm-helper exited with 1
+Apr 05 02:34:48 saikarch-p4 sddm-greeter[1328]: Reading from "/usr/share/wayland-sessions/hyprland.desktop"
+Apr 05 02:34:48 saikarch-p4 sddm[869]: Message received from greeter: Login
+Apr 05 02:34:48 saikarch-p4 sddm[869]: Reading from "/usr/share/wayland-sessions/hyprland.desktop"
+Apr 05 02:34:48 saikarch-p4 sddm[869]: Reading from "/usr/share/wayland-sessions/hyprland.desktop"
+Apr 05 02:34:48 saikarch-p4 sddm[869]: Session "/usr/share/wayland-sessions/hyprland.desktop" selected, command: "Hyprland"
+Apr 05 02:34:48 saikarch-p4 sddm-helper[1419]: [PAM] Starting...
+Apr 05 02:34:48 saikarch-p4 sddm-helper[1419]: [PAM] Authenticating...
+Apr 05 02:34:48 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.59' (uid=0 pid=1419 comm="/usr/lib/sddm/sddm-helper --socket /tmp/sddm-authd")
+Apr 05 02:34:48 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:34:48 saikarch-p4 sddm-helper[1419]: pam_systemd_home(sddm:auth): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:34:48 saikarch-p4 sddm-helper[1419]: [PAM] Preparing to converse...
+Apr 05 02:34:48 saikarch-p4 sddm-helper[1419]: [PAM] Conversation with 1 messages
+Apr 05 02:34:48 saikarch-p4 sddm-helper[1419]: [PAM] returning.
+Apr 05 02:34:48 saikarch-p4 sddm[869]: Authenticated successfully
+Apr 05 02:34:48 saikarch-p4 sddm-greeter[1328]: Message received from daemon: LoginSucceeded
+Apr 05 02:34:48 saikarch-p4 sddm-helper[1419]: pam_unix(sddm:session): session opened for user saik(uid=1000) by (uid=0)
+Apr 05 02:34:48 saikarch-p4 systemd-logind[577]: New session 8 of user saik.
+░░ Subject: A new session 8 has been created for user saik
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ Documentation: sd-login(3)
+░░ 
+░░ A new session with the ID 8 has been created for the user saik.
+░░ 
+░░ The leading process of the session is 1419.
+Apr 05 02:34:48 saikarch-p4 systemd[1]: Started Session 8 of User saik.
+░░ Subject: A start job for unit session-8.scope has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit session-8.scope has finished successfully.
+░░ 
+░░ The job identifier is 2063.
+Apr 05 02:34:48 saikarch-p4 sddm-helper[1419]: Starting: "/usr/share/sddm/scripts/wayland-session Hyprland"
+Apr 05 02:34:48 saikarch-p4 sddm-helper[1420]: Jumping to VT 3
+Apr 05 02:34:48 saikarch-p4 sddm-helper[1420]: VT mode didn't need to be fixed
+Apr 05 02:34:48 saikarch-p4 sddm-helper[1327]: [PAM] Closing session
+Apr 05 02:34:48 saikarch-p4 sddm-helper[1327]: pam_unix(sddm-greeter:session): session closed for user sddm
+Apr 05 02:34:48 saikarch-p4 sddm-helper[1327]: [PAM] Ended.
+Apr 05 02:34:48 saikarch-p4 sddm[869]: Auth: sddm-helper exited successfully
+Apr 05 02:34:48 saikarch-p4 sddm[869]: Greeter stopped.
+Apr 05 02:34:48 saikarch-p4 systemd[1]: session-c4.scope: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit session-c4.scope has successfully entered the 'dead' state.
+Apr 05 02:34:48 saikarch-p4 systemd-logind[577]: Session c4 logged out. Waiting for processes to exit.
+Apr 05 02:34:48 saikarch-p4 sddm[869]: Session started
+Apr 05 02:35:13 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.62' (uid=0 pid=1572 comm="sudo pacman -S nohup")
+Apr 05 02:35:13 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:35:13 saikarch-p4 sudo[1572]: pam_systemd_home(sudo:auth): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:35:15 saikarch-p4 sudo[1572]:     saik : TTY=pts/0 ; PWD=/home/saik ; USER=root ; COMMAND=/usr/bin/pacman -S nohup
+Apr 05 02:35:15 saikarch-p4 sudo[1572]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Apr 05 02:35:15 saikarch-p4 sudo[1572]: pam_unix(sudo:session): session closed for user root
+Apr 05 02:35:21 saikarch-p4 dbus-daemon[954]: [session uid=1000 pid=954] Activating via systemd: service name='org.a11y.Bus' unit='at-spi-dbus-bus.service' requested by ':1.12' (uid=1000 pid=1582 comm="/usr/lib/chromium/chromium")
+Apr 05 02:35:21 saikarch-p4 systemd[644]: Starting Accessibility services bus...
+░░ Subject: A start job for unit UNIT has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has begun execution.
+░░ 
+░░ The job identifier is 45.
+Apr 05 02:35:21 saikarch-p4 dbus-daemon[954]: [session uid=1000 pid=954] Successfully activated service 'org.a11y.Bus'
+Apr 05 02:35:21 saikarch-p4 systemd[644]: Started Accessibility services bus.
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 45.
+Apr 05 02:36:53 saikarch-p4 wpa_supplicant[636]: wlp7s0: PMKSA-CACHE-ADDED 3c:41:0e:30:71:2c 0
+Apr 05 02:36:53 saikarch-p4 wpa_supplicant[636]: wlp7s0: PMKSA-CACHE-ADDED a4:b2:39:5c:f6:8c 0
+Apr 05 02:36:53 saikarch-p4 wpa_supplicant[636]: wlp7s0: PMKSA-CACHE-ADDED a4:b2:39:5e:43:ac 0
+Apr 05 02:41:58 saikarch-p4 wpa_supplicant[636]: wlp7s0: PMKSA-CACHE-ADDED a4:b2:39:5e:3a:2c 0
+Apr 05 02:41:58 saikarch-p4 wpa_supplicant[636]: wlp7s0: PMKSA-CACHE-ADDED a4:b2:39:5e:6b:2c 0
+Apr 05 02:42:43 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.69' (uid=0 pid=6233 comm="sudo /usr/bin/pacman -S --asdeps cargo")
+Apr 05 02:42:43 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:42:43 saikarch-p4 sudo[6233]: pam_systemd_home(sudo:auth): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:42:45 saikarch-p4 sudo[6233]:     saik : TTY=pts/1 ; PWD=/home/saik/Documents/paru ; USER=root ; COMMAND=/usr/bin/pacman -S --asdeps cargo
+Apr 05 02:42:45 saikarch-p4 sudo[6233]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Apr 05 02:43:07 saikarch-p4 sudo[6233]: pam_unix(sudo:session): session closed for user root
+Apr 05 02:44:45 saikarch-p4 systemd[1]: Starting Cleanup of Temporary Directories...
+░░ Subject: A start job for unit systemd-tmpfiles-clean.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-tmpfiles-clean.service has begun execution.
+░░ 
+░░ The job identifier is 2163.
+Apr 05 02:44:45 saikarch-p4 systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-tmpfiles-clean.service has successfully entered the 'dead' state.
+Apr 05 02:44:45 saikarch-p4 systemd[1]: Finished Cleanup of Temporary Directories.
+░░ Subject: A start job for unit systemd-tmpfiles-clean.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-tmpfiles-clean.service has finished successfully.
+░░ 
+░░ The job identifier is 2163.
+Apr 05 02:44:45 saikarch-p4 systemd[1]: run-credentials-systemd\x2dtmpfiles\x2dclean.service.mount: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit run-credentials-systemd\x2dtmpfiles\x2dclean.service.mount has successfully entered the 'dead' state.
+Apr 05 02:45:40 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.70' (uid=0 pid=12385 comm="sudo /usr/bin/pacman -U /home/saik/Documents/paru/")
+Apr 05 02:45:40 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:45:40 saikarch-p4 sudo[12385]: pam_systemd_home(sudo:account): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:45:40 saikarch-p4 sudo[12385]:     saik : TTY=pts/1 ; PWD=/home/saik/Documents/paru ; USER=root ; COMMAND=/usr/bin/pacman -U /home/saik/Documents/paru/paru-1.11.1-1-x86_64.pkg.tar.zst
+Apr 05 02:45:40 saikarch-p4 sudo[12385]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Apr 05 02:46:44 saikarch-p4 sudo[12385]: pam_unix(sudo:session): session closed for user root
+Apr 05 02:47:01 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.71' (uid=0 pid=12606 comm="sudo pacman --sync -- fish")
+Apr 05 02:47:01 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:47:01 saikarch-p4 sudo[12606]: pam_systemd_home(sudo:auth): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:47:03 saikarch-p4 sudo[12606]:     saik : TTY=pts/0 ; PWD=/home/saik ; USER=root ; COMMAND=/usr/bin/pacman --sync -- fish
+Apr 05 02:47:03 saikarch-p4 sudo[12606]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Apr 05 02:47:06 saikarch-p4 sudo[12606]: pam_unix(sudo:session): session closed for user root
+Apr 05 02:47:27 saikarch-p4 wpa_supplicant[636]: wlp7s0: WPA: Group rekeying completed with a4:b2:39:5f:f4:ac [GTK=CCMP]
+Apr 05 02:47:56 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.72' (uid=0 pid=12691 comm="sudo tee -a /etc/shells")
+Apr 05 02:47:56 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:47:56 saikarch-p4 sudo[12691]: pam_systemd_home(sudo:account): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:47:56 saikarch-p4 sudo[12691]:     saik : TTY=pts/0 ; PWD=/home/saik ; USER=root ; COMMAND=/usr/bin/tee -a /etc/shells
+Apr 05 02:47:56 saikarch-p4 sudo[12691]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Apr 05 02:47:56 saikarch-p4 sudo[12691]: pam_unix(sudo:session): session closed for user root
+Apr 05 02:48:23 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.73' (uid=0 pid=12807 comm="sudo pacman --sync -- neofetch")
+Apr 05 02:48:23 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:48:23 saikarch-p4 sudo[12807]: pam_systemd_home(sudo:account): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:48:23 saikarch-p4 sudo[12807]:     saik : TTY=pts/0 ; PWD=/home/saik ; USER=root ; COMMAND=/usr/bin/pacman --sync -- neofetch
+Apr 05 02:48:23 saikarch-p4 sudo[12807]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Apr 05 02:48:26 saikarch-p4 sudo[12807]: pam_unix(sudo:session): session closed for user root
+Apr 05 02:51:00 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.74' (uid=0 pid=13485 comm="sudo pacman --sync -- pipewire wireplumber")
+Apr 05 02:51:00 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:51:00 saikarch-p4 sudo[13485]: pam_systemd_home(sudo:account): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:51:00 saikarch-p4 sudo[13485]:     saik : TTY=pts/0 ; PWD=/home/saik ; USER=root ; COMMAND=/usr/bin/pacman --sync -- pipewire wireplumber
+Apr 05 02:51:00 saikarch-p4 sudo[13485]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Apr 05 02:51:06 saikarch-p4 sudo[13485]: pam_unix(sudo:session): session closed for user root
+Apr 05 02:51:15 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.75' (uid=0 pid=13627 comm="sudo pacman --sync -- qt5-wayland qt6-wayland")
+Apr 05 02:51:15 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:51:15 saikarch-p4 sudo[13627]: pam_systemd_home(sudo:account): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:51:15 saikarch-p4 sudo[13627]:     saik : TTY=pts/0 ; PWD=/home/saik ; USER=root ; COMMAND=/usr/bin/pacman --sync -- qt5-wayland qt6-wayland
+Apr 05 02:51:15 saikarch-p4 sudo[13627]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Apr 05 02:51:26 saikarch-p4 sudo[13627]: pam_unix(sudo:session): session closed for user root
+Apr 05 02:51:27 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.76' (uid=0 pid=13702 comm="sudo pacman --sync -- extra/libnotify")
+Apr 05 02:51:27 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:51:27 saikarch-p4 sudo[13702]: pam_systemd_home(sudo:auth): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:51:50 saikarch-p4 sudo[13702]:     saik : TTY=pts/1 ; PWD=/home/saik/Documents/paru ; USER=root ; COMMAND=/usr/bin/pacman --sync -- extra/libnotify
+Apr 05 02:51:50 saikarch-p4 sudo[13702]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Apr 05 02:51:53 saikarch-p4 sudo[13702]: pam_unix(sudo:session): session closed for user root
+Apr 05 02:51:53 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.77' (uid=0 pid=13778 comm="sudo pacman --database --asdeps -- libnotify")
+Apr 05 02:51:53 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:51:53 saikarch-p4 sudo[13778]: pam_systemd_home(sudo:account): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:51:53 saikarch-p4 sudo[13778]:     saik : TTY=pts/1 ; PWD=/home/saik/Documents/paru ; USER=root ; COMMAND=/usr/bin/pacman --database --asdeps -- libnotify
+Apr 05 02:51:53 saikarch-p4 sudo[13778]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Apr 05 02:51:53 saikarch-p4 sudo[13778]: pam_unix(sudo:session): session closed for user root
+Apr 05 02:51:59 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.78' (uid=0 pid=14530 comm="sudo pacman --sync -- mako")
+Apr 05 02:51:59 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:51:59 saikarch-p4 sudo[14530]: pam_systemd_home(sudo:account): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:51:59 saikarch-p4 sudo[14530]:     saik : TTY=pts/0 ; PWD=/home/saik ; USER=root ; COMMAND=/usr/bin/pacman --sync -- mako
+Apr 05 02:51:59 saikarch-p4 sudo[14530]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Apr 05 02:52:01 saikarch-p4 dbus-daemon[905]: [session uid=971 pid=905] Reloaded configuration
+Apr 05 02:52:01 saikarch-p4 dbus-daemon[954]: [session uid=1000 pid=954] Reloaded configuration
+Apr 05 02:52:01 saikarch-p4 sudo[14530]: pam_unix(sudo:session): session closed for user root
+Apr 05 02:53:22 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.79' (uid=0 pid=17810 comm="sudo pacman --upgrade --noconfirm -- /home/saik/.c")
+Apr 05 02:53:22 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:53:22 saikarch-p4 sudo[17810]: pam_systemd_home(sudo:account): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:53:22 saikarch-p4 sudo[17810]:     saik : TTY=pts/1 ; PWD=/home/saik/Documents/paru ; USER=root ; COMMAND=/usr/bin/pacman --upgrade --noconfirm -- /home/saik/.cache/paru/clone/discord-canary/discord-canary-0.0.150-1-x86_64.pkg.tar.zst
+Apr 05 02:53:22 saikarch-p4 sudo[17810]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Apr 05 02:53:22 saikarch-p4 sudo[17810]: pam_unix(sudo:session): session closed for user root
+Apr 05 02:53:22 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.80' (uid=0 pid=17816 comm="sudo pacman --database --asexplicit -- discord-can")
+Apr 05 02:53:22 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:53:22 saikarch-p4 sudo[17816]: pam_systemd_home(sudo:account): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:53:22 saikarch-p4 sudo[17816]:     saik : TTY=pts/1 ; PWD=/home/saik/Documents/paru ; USER=root ; COMMAND=/usr/bin/pacman --database --asexplicit -- discord-canary
+Apr 05 02:53:22 saikarch-p4 sudo[17816]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Apr 05 02:53:22 saikarch-p4 sudo[17816]: pam_unix(sudo:session): session closed for user root
+Apr 05 02:53:32 saikarch-p4 wpa_supplicant[636]: wlp7s0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-49 noise=9999 txrate=573500
+Apr 05 02:53:37 saikarch-p4 wpa_supplicant[636]: wlp7s0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-55 noise=9999 txrate=573500
+Apr 05 02:53:42 saikarch-p4 wpa_supplicant[636]: wlp7s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-55 noise=9999 txrate=573500
+Apr 05 02:53:42 saikarch-p4 wpa_supplicant[636]: wlp7s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-55 noise=9999 txrate=573500
+Apr 05 02:53:43 saikarch-p4 wpa_supplicant[636]: wlp7s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-49 noise=9999 txrate=573500
+Apr 05 02:54:07 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.81' (uid=0 pid=17917 comm="sudo pacman --sync -- polkit-kde-agent")
+Apr 05 02:54:07 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:54:07 saikarch-p4 sudo[17917]: pam_systemd_home(sudo:account): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:54:07 saikarch-p4 sudo[17917]:     saik : TTY=pts/0 ; PWD=/home/saik ; USER=root ; COMMAND=/usr/bin/pacman --sync -- polkit-kde-agent
+Apr 05 02:54:07 saikarch-p4 sudo[17917]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Apr 05 02:54:17 saikarch-p4 dbus-daemon[576]: [system] Reloaded configuration
+Apr 05 02:54:18 saikarch-p4 systemd[1]: Reloading D-Bus System Message Bus...
+░░ Subject: A reload job for unit dbus.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A reload job for unit dbus.service has begun execution.
+░░ 
+░░ The job identifier is 2169.
+Apr 05 02:54:18 saikarch-p4 dbus-daemon[576]: [system] Reloaded configuration
+Apr 05 02:54:18 saikarch-p4 dbus-send[18058]: method return time=1680677658.291034 sender=org.freedesktop.DBus -> destination=:1.83 serial=3 reply_serial=2
+Apr 05 02:54:18 saikarch-p4 systemd[1]: Reloaded D-Bus System Message Bus.
+░░ Subject: A reload job for unit dbus.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A reload job for unit dbus.service has finished.
+░░ 
+░░ The job identifier is 2169 and the job result is done.
+Apr 05 02:54:18 saikarch-p4 sudo[17917]: pam_unix(sudo:session): session closed for user root
+Apr 05 02:55:04 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.88' (uid=0 pid=18193 comm="sudo pacman --sync -- pipewire wireplumber")
+Apr 05 02:55:04 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:55:04 saikarch-p4 sudo[18193]: pam_systemd_home(sudo:account): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:55:04 saikarch-p4 sudo[18193]:     saik : TTY=pts/0 ; PWD=/home/saik ; USER=root ; COMMAND=/usr/bin/pacman --sync -- pipewire wireplumber
+Apr 05 02:55:04 saikarch-p4 sudo[18193]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Apr 05 02:55:06 saikarch-p4 sudo[18193]: pam_unix(sudo:session): session closed for user root
+Apr 05 02:56:22 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.89' (uid=0 pid=21219 comm="sudo /usr/bin/pacman -S --asdeps go>=1.17")
+Apr 05 02:56:22 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:56:22 saikarch-p4 sudo[21219]: pam_systemd_home(sudo:account): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:56:22 saikarch-p4 sudo[21219]:     saik : TTY=pts/0 ; PWD=/home/saik/Documents/yay ; USER=root ; COMMAND=/usr/bin/pacman -S --asdeps go>=1.17
+Apr 05 02:56:22 saikarch-p4 sudo[21219]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Apr 05 02:56:28 saikarch-p4 sudo[21219]: pam_unix(sudo:session): session closed for user root
+Apr 05 02:56:39 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.90' (uid=0 pid=26698 comm="sudo /usr/bin/pacman -U /home/saik/Documents/yay/y")
+Apr 05 02:56:39 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:56:39 saikarch-p4 sudo[26698]: pam_systemd_home(sudo:account): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:56:39 saikarch-p4 sudo[26698]:     saik : TTY=pts/0 ; PWD=/home/saik/Documents/yay ; USER=root ; COMMAND=/usr/bin/pacman -U /home/saik/Documents/yay/yay-12.0.2-1-x86_64.pkg.tar.zst
+Apr 05 02:56:39 saikarch-p4 sudo[26698]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Apr 05 02:56:40 saikarch-p4 sudo[26698]: pam_unix(sudo:session): session closed for user root
+Apr 05 02:57:13 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.91' (uid=0 pid=27502 comm="sudo pacman -S --config /etc/pacman.conf -- core/l")
+Apr 05 02:57:13 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:57:13 saikarch-p4 sudo[27502]: pam_systemd_home(sudo:account): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:57:13 saikarch-p4 sudo[27502]:     saik : TTY=pts/0 ; PWD=/home/saik/Documents/yay ; USER=root ; COMMAND=/usr/bin/pacman -S --config /etc/pacman.conf -- core/libinih community/scdoc extra/cmake extra/meson extra/xdg-desktop-portal
+Apr 05 02:57:13 saikarch-p4 sudo[27502]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Apr 05 02:58:35 saikarch-p4 polkitd[679]: Reloading rules
+Apr 05 02:58:35 saikarch-p4 polkitd[679]: Collecting garbage unconditionally...
+Apr 05 02:58:35 saikarch-p4 polkitd[679]: Loading rules from directory /etc/polkit-1/rules.d
+Apr 05 02:58:35 saikarch-p4 polkitd[679]: Loading rules from directory /usr/share/polkit-1/rules.d
+Apr 05 02:58:35 saikarch-p4 polkitd[679]: Finished loading, compiling and executing 3 rules
+Apr 05 02:58:35 saikarch-p4 polkitd[679]: Reloading rules
+Apr 05 02:58:35 saikarch-p4 polkitd[679]: Collecting garbage unconditionally...
+Apr 05 02:58:35 saikarch-p4 polkitd[679]: Loading rules from directory /etc/polkit-1/rules.d
+Apr 05 02:58:35 saikarch-p4 polkitd[679]: Loading rules from directory /usr/share/polkit-1/rules.d
+Apr 05 02:58:35 saikarch-p4 polkitd[679]: Finished loading, compiling and executing 3 rules
+Apr 05 02:58:35 saikarch-p4 dbus-daemon[576]: Unknown username "geoclue" in message bus configuration file
+Apr 05 02:58:35 saikarch-p4 dbus-daemon[954]: [session uid=1000 pid=954] Reloaded configuration
+Apr 05 02:58:35 saikarch-p4 dbus-daemon[905]: [session uid=971 pid=905] Reloaded configuration
+Apr 05 02:58:35 saikarch-p4 dbus-daemon[576]: Unknown username "geoclue" in message bus configuration file
+Apr 05 02:58:35 saikarch-p4 dbus-daemon[576]: [system] Reloaded configuration
+Apr 05 02:58:35 saikarch-p4 dbus-daemon[954]: [session uid=1000 pid=954] Reloaded configuration
+Apr 05 02:58:35 saikarch-p4 dbus-daemon[905]: [session uid=971 pid=905] Reloaded configuration
+Apr 05 02:58:35 saikarch-p4 dbus-daemon[954]: [session uid=1000 pid=954] Reloaded configuration
+Apr 05 02:58:35 saikarch-p4 dbus-daemon[954]: [session uid=1000 pid=954] Reloaded configuration
+Apr 05 02:58:35 saikarch-p4 dbus-daemon[905]: [session uid=971 pid=905] Reloaded configuration
+Apr 05 02:58:35 saikarch-p4 dbus-daemon[576]: Unknown username "geoclue" in message bus configuration file
+Apr 05 02:58:35 saikarch-p4 dbus-daemon[576]: Unknown username "geoclue" in message bus configuration file
+Apr 05 02:58:35 saikarch-p4 dbus-daemon[576]: Unknown username "rtkit" in message bus configuration file
+Apr 05 02:58:35 saikarch-p4 dbus-daemon[576]: [system] Reloaded configuration
+Apr 05 02:58:35 saikarch-p4 systemd[1]: Reloading requested from client PID 27683 (unit session-8.scope)...
+Apr 05 02:58:35 saikarch-p4 systemd[1]: Reloading...
+Apr 05 02:58:35 saikarch-p4 systemd[1]: Reloading finished in 152 ms.
+Apr 05 02:58:35 saikarch-p4 systemd[644]: Reached target Sound Card.
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 71.
+Apr 05 02:58:35 saikarch-p4 systemd[894]: Reached target Sound Card.
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 53.
+Apr 05 02:58:35 saikarch-p4 systemd[894]: Reached target Bluetooth.
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 93.
+Apr 05 02:58:35 saikarch-p4 systemd[644]: Reached target Bluetooth.
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 111.
+Apr 05 02:58:35 saikarch-p4 systemd-logind[577]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Apr 05 02:58:35 saikarch-p4 systemd-logind[577]: Watching system buttons on /dev/input/event1 (Power Button)
+Apr 05 02:58:35 saikarch-p4 systemd-logind[577]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Apr 05 02:58:35 saikarch-p4 systemd-logind[577]: Watching system buttons on /dev/input/event4 (Asus Keyboard)
+Apr 05 02:58:35 saikarch-p4 systemd-logind[577]: Watching system buttons on /dev/input/event5 (Asus Keyboard)
+Apr 05 02:58:35 saikarch-p4 systemd-logind[577]: Watching system buttons on /dev/input/event20 (Razer Naga Pro Keyboard)
+Apr 05 02:58:35 saikarch-p4 systemd-logind[577]: Watching system buttons on /dev/input/event10 (Razer Naga Pro)
+Apr 05 02:58:35 saikarch-p4 systemd[1]: Reloading D-Bus System Message Bus...
+░░ Subject: A reload job for unit dbus.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A reload job for unit dbus.service has begun execution.
+░░ 
+░░ The job identifier is 2335.
+Apr 05 02:58:35 saikarch-p4 dbus-daemon[576]: [system] Reloaded configuration
+Apr 05 02:58:35 saikarch-p4 dbus-send[27831]: method return time=1680677915.930722 sender=org.freedesktop.DBus -> destination=:1.93 serial=3 reply_serial=2
+Apr 05 02:58:35 saikarch-p4 systemd[1]: Reloaded D-Bus System Message Bus.
+░░ Subject: A reload job for unit dbus.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A reload job for unit dbus.service has finished.
+░░ 
+░░ The job identifier is 2335 and the job result is done.
+Apr 05 02:58:35 saikarch-p4 sudo[27502]: pam_unix(sudo:session): session closed for user root
+Apr 05 02:58:35 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.94' (uid=0 pid=27836 comm="sudo pacman -D -q --asdeps --config /etc/pacman.co")
+Apr 05 02:58:35 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:58:35 saikarch-p4 sudo[27836]: pam_systemd_home(sudo:account): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:58:35 saikarch-p4 sudo[27836]:     saik : TTY=pts/0 ; PWD=/home/saik/Documents/yay ; USER=root ; COMMAND=/usr/bin/pacman -D -q --asdeps --config /etc/pacman.conf -- xdg-desktop-portal libinih scdoc cmake meson
+Apr 05 02:58:35 saikarch-p4 sudo[27836]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Apr 05 02:58:35 saikarch-p4 sudo[27836]: pam_unix(sudo:session): session closed for user root
+Apr 05 02:58:43 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.95' (uid=0 pid=31139 comm="sudo pacman -U --config /etc/pacman.conf -- /home/")
+Apr 05 02:58:43 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:58:43 saikarch-p4 sudo[31139]: pam_systemd_home(sudo:account): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:58:43 saikarch-p4 sudo[31139]:     saik : TTY=pts/0 ; PWD=/home/saik/Documents/yay ; USER=root ; COMMAND=/usr/bin/pacman -U --config /etc/pacman.conf -- /home/saik/.cache/yay/xdg-desktop-portal-hyprland-git/xdg-desktop-portal-hyprland-git-1:r261.e1f145d-4-x86_64.pkg.tar.zst
+Apr 05 02:58:43 saikarch-p4 sudo[31139]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Apr 05 02:58:52 saikarch-p4 dbus-daemon[905]: [session uid=971 pid=905] Reloaded configuration
+Apr 05 02:58:52 saikarch-p4 dbus-daemon[954]: [session uid=1000 pid=954] Reloaded configuration
+Apr 05 02:58:52 saikarch-p4 dbus-daemon[905]: [session uid=971 pid=905] Reloaded configuration
+Apr 05 02:58:52 saikarch-p4 dbus-daemon[954]: [session uid=1000 pid=954] Reloaded configuration
+Apr 05 02:58:52 saikarch-p4 sudo[31139]: pam_unix(sudo:session): session closed for user root
+Apr 05 02:58:52 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.96' (uid=0 pid=31144 comm="sudo pacman -D -q --asexplicit --config /etc/pacma")
+Apr 05 02:58:52 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:58:52 saikarch-p4 sudo[31144]: pam_systemd_home(sudo:account): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:58:52 saikarch-p4 sudo[31144]:     saik : TTY=pts/0 ; PWD=/home/saik/Documents/yay ; USER=root ; COMMAND=/usr/bin/pacman -D -q --asexplicit --config /etc/pacman.conf -- xdg-desktop-portal-hyprland-git
+Apr 05 02:58:52 saikarch-p4 sudo[31144]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Apr 05 02:58:52 saikarch-p4 sudo[31144]: pam_unix(sudo:session): session closed for user root
+Apr 05 02:59:11 saikarch-p4 polkitd[679]: Registered Authentication Agent for unix-process:31207:180497 (system bus name :1.97 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 05 02:59:11 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.99' (uid=0 pid=31217 comm="/usr/lib/polkit-1/polkit-agent-helper-1 saik")
+Apr 05 02:59:11 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:59:11 saikarch-p4 polkit-agent-helper-1[31217]: pam_systemd_home(polkit-1:auth): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:59:13 saikarch-p4 polkitd[679]: Operator of unix-process:31207:180497 successfully authenticated as unix-user:saik to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-unit-files for system-bus-name::1.98 [systemctl enable --now sddm] (owned by unix-user:saik)
+Apr 05 02:59:13 saikarch-p4 systemd[1]: Reloading requested from client PID 31207 ('systemctl') (unit session-8.scope)...
+Apr 05 02:59:13 saikarch-p4 systemd[1]: Reloading...
+Apr 05 02:59:14 saikarch-p4 systemd[1]: Reloading finished in 179 ms.
+Apr 05 02:59:14 saikarch-p4 systemd[1]: sddm.service: Found left-over process 869 (sddm) in control group while starting unit. Ignoring.
+Apr 05 02:59:14 saikarch-p4 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Apr 05 02:59:14 saikarch-p4 systemd[1]: sddm.service: Found left-over process 1311 (Xorg) in control group while starting unit. Ignoring.
+Apr 05 02:59:14 saikarch-p4 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Apr 05 02:59:14 saikarch-p4 systemd[1]: Started Simple Desktop Display Manager.
+░░ Subject: A start job for unit sddm.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sddm.service has finished successfully.
+░░ 
+░░ The job identifier is 2336.
+Apr 05 02:59:14 saikarch-p4 polkitd[679]: Unregistered Authentication Agent for unix-process:31207:180497 (system bus name :1.97, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 05 02:59:14 saikarch-p4 sddm[31241]: Initializing...
+Apr 05 02:59:14 saikarch-p4 sddm[31241]: Starting...
+Apr 05 02:59:14 saikarch-p4 sddm[31241]: Logind interface found
+Apr 05 02:59:14 saikarch-p4 sddm[31241]: Adding new display on vt 1 ...
+Apr 05 02:59:14 saikarch-p4 sddm[31241]: Loading theme configuration from ""
+Apr 05 02:59:14 saikarch-p4 sddm[31241]: Display server starting...
+Apr 05 02:59:14 saikarch-p4 sddm[31241]: Adding cookie to "/var/run/sddm/{0df3c38f-dc7b-4c0f-9ae3-56f0db66e776}"
+Apr 05 02:59:14 saikarch-p4 sddm[31241]: Running: /usr/bin/X -nolisten tcp -background none -seat seat0 vt1 -auth /var/run/sddm/{0df3c38f-dc7b-4c0f-9ae3-56f0db66e776} -noreset -displayfd 17
+Apr 05 02:59:16 saikarch-p4 sddm[869]: Display server stopped.
+Apr 05 02:59:16 saikarch-p4 sddm[869]: Running display stop script  "/usr/share/sddm/scripts/Xstop"
+Apr 05 02:59:16 saikarch-p4 sddm[869]: Socket server stopping...
+Apr 05 02:59:16 saikarch-p4 sddm[869]: Socket server stopped.
+Apr 05 02:59:16 saikarch-p4 sddm[869]: Removing display ":0" ...
+Apr 05 02:59:16 saikarch-p4 sddm[869]: Adding new display on vt 1 ...
+Apr 05 02:59:16 saikarch-p4 sddm[869]: Loading theme configuration from ""
+Apr 05 02:59:16 saikarch-p4 sddm[869]: Display server starting...
+Apr 05 02:59:16 saikarch-p4 sddm[869]: Adding cookie to "/var/run/sddm/{60019519-2319-4538-98cb-ed155a0fb47e}"
+Apr 05 02:59:16 saikarch-p4 sddm[869]: Running: /usr/bin/X -nolisten tcp -background none -seat seat0 vt1 -auth /var/run/sddm/{60019519-2319-4538-98cb-ed155a0fb47e} -noreset -displayfd 18
+Apr 05 02:59:16 saikarch-p4 sddm[869]: Failed to read display number from pipe
+Apr 05 02:59:16 saikarch-p4 sddm[869]: Display server stopping...
+Apr 05 02:59:16 saikarch-p4 sddm[869]: Attempt 1 starting the Display server on vt 1 failed
+Apr 05 02:59:16 saikarch-p4 sddm[869]: QProcess: Destroyed while process ("/usr/lib/sddm/sddm-helper") is still running.
+Apr 05 02:59:16 saikarch-p4 systemd-logind[577]: Session 8 logged out. Waiting for processes to exit.
+Apr 05 02:59:17 saikarch-p4 sddm[31241]: Adding cookie to "/var/run/sddm/{0df3c38f-dc7b-4c0f-9ae3-56f0db66e776}"
+Apr 05 02:59:17 saikarch-p4 sddm[31241]: Setting default cursor
+Apr 05 02:59:17 saikarch-p4 sddm[31241]: Could not setup default cursor
+Apr 05 02:59:17 saikarch-p4 sddm[31241]: Running display setup script  "/usr/share/sddm/scripts/Xsetup"
+Apr 05 02:59:17 saikarch-p4 sddm[31241]: Display server started.
+Apr 05 02:59:17 saikarch-p4 sddm[31241]: Socket server starting...
+Apr 05 02:59:17 saikarch-p4 sddm[31241]: Socket server started.
+Apr 05 02:59:17 saikarch-p4 sddm[31241]: Loading theme configuration from ""
+Apr 05 02:59:17 saikarch-p4 sddm[31241]: Greeter starting...
+Apr 05 02:59:17 saikarch-p4 sddm-helper[31272]: [PAM] Starting...
+Apr 05 02:59:17 saikarch-p4 sddm-helper[31272]: [PAM] Authenticating...
+Apr 05 02:59:17 saikarch-p4 sddm-helper[31272]: [PAM] returning.
+Apr 05 02:59:17 saikarch-p4 sddm-helper[31272]: pam_unix(sddm-greeter:session): session opened for user sddm(uid=971) by (uid=0)
+Apr 05 02:59:17 saikarch-p4 systemd-logind[577]: New session c5 of user sddm.
+░░ Subject: A new session c5 has been created for user sddm
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ Documentation: sd-login(3)
+░░ 
+░░ A new session with the ID c5 has been created for the user sddm.
+░░ 
+░░ The leading process of the session is 31272.
+Apr 05 02:59:17 saikarch-p4 systemd[1]: Started Session c5 of User sddm.
+░░ Subject: A start job for unit session-c5.scope has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit session-c5.scope has finished successfully.
+░░ 
+░░ The job identifier is 2433.
+Apr 05 02:59:17 saikarch-p4 sddm[31241]: Greeter session started successfully
+Apr 05 02:59:17 saikarch-p4 sddm-greeter[31273]: High-DPI autoscaling not Enabled
+Apr 05 02:59:17 saikarch-p4 sddm-greeter[31273]: Reading from "/usr/share/wayland-sessions/hyprland.desktop"
+Apr 05 02:59:17 saikarch-p4 sddm-greeter[31273]: Loading theme configuration from "qrc:/theme/theme.conf"
+Apr 05 02:59:17 saikarch-p4 sddm-greeter[31273]: Connected to the daemon.
+Apr 05 02:59:17 saikarch-p4 sddm-greeter[31273]: QFont::fromString: Invalid description '(empty)'
+Apr 05 02:59:17 saikarch-p4 sddm[31241]: Message received from greeter: Connect
+Apr 05 02:59:17 saikarch-p4 sddm-greeter[31273]: Loading qrc:/theme/Main.qml...
+Apr 05 02:59:17 saikarch-p4 sddm-greeter[31273]: file:///usr/lib/qt/qml/SddmComponents/LayoutBox.qml:35:5: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+Apr 05 02:59:17 saikarch-p4 sddm-greeter[31273]: qrc:/theme/Main.qml:41:5: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+Apr 05 02:59:17 saikarch-p4 sddm-greeter[31273]: Adding view for "eDP" QRect(0,0 2560x1600)
+Apr 05 02:59:17 saikarch-p4 sddm-greeter[31273]: Loading qrc:/theme/Main.qml...
+Apr 05 02:59:17 saikarch-p4 sddm-greeter[31273]: file:///usr/lib/qt/qml/SddmComponents/LayoutBox.qml:35:5: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+Apr 05 02:59:17 saikarch-p4 sddm-greeter[31273]: qrc:/theme/Main.qml:41:5: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+Apr 05 02:59:17 saikarch-p4 sddm-greeter[31273]: Adding view for "DisplayPort-6" QRect(2560,0 2560x1440)
+Apr 05 02:59:17 saikarch-p4 sddm-greeter[31273]: Message received from daemon: Capabilities
+Apr 05 02:59:17 saikarch-p4 sddm-greeter[31273]: Message received from daemon: HostName
+Apr 05 02:59:18 saikarch-p4 sddm[869]: Display server starting...
+Apr 05 02:59:18 saikarch-p4 sddm[869]: Adding cookie to "/var/run/sddm/{60019519-2319-4538-98cb-ed155a0fb47e}"
+Apr 05 02:59:18 saikarch-p4 sddm[869]: Running: /usr/bin/X -nolisten tcp -background none -seat seat0 vt1 -auth /var/run/sddm/{60019519-2319-4538-98cb-ed155a0fb47e} -noreset -displayfd 17
+Apr 05 02:59:18 saikarch-p4 sddm[869]: Failed to read display number from pipe
+Apr 05 02:59:18 saikarch-p4 sddm[869]: Display server stopping...
+Apr 05 02:59:18 saikarch-p4 sddm[869]: Attempt 2 starting the Display server on vt 1 failed
+Apr 05 02:59:20 saikarch-p4 sddm[869]: Display server starting...
+Apr 05 02:59:20 saikarch-p4 sddm[869]: Adding cookie to "/var/run/sddm/{60019519-2319-4538-98cb-ed155a0fb47e}"
+Apr 05 02:59:20 saikarch-p4 sddm[869]: Running: /usr/bin/X -nolisten tcp -background none -seat seat0 vt1 -auth /var/run/sddm/{60019519-2319-4538-98cb-ed155a0fb47e} -noreset -displayfd 17
+Apr 05 02:59:20 saikarch-p4 sddm[869]: Failed to read display number from pipe
+Apr 05 02:59:20 saikarch-p4 sddm[869]: Display server stopping...
+Apr 05 02:59:20 saikarch-p4 sddm[869]: Attempt 3 starting the Display server on vt 1 failed
+Apr 05 02:59:20 saikarch-p4 sddm[869]: Could not start Display server on vt 1
+Apr 05 02:59:32 saikarch-p4 sddm-greeter[31273]: Reading from "/usr/share/wayland-sessions/hyprland.desktop"
+Apr 05 02:59:32 saikarch-p4 sddm[31241]: Message received from greeter: Login
+Apr 05 02:59:32 saikarch-p4 sddm[31241]: Reading from "/usr/share/wayland-sessions/hyprland.desktop"
+Apr 05 02:59:32 saikarch-p4 sddm[31241]: Reading from "/usr/share/wayland-sessions/hyprland.desktop"
+Apr 05 02:59:32 saikarch-p4 sddm[31241]: Session "/usr/share/wayland-sessions/hyprland.desktop" selected, command: "Hyprland"
+Apr 05 02:59:32 saikarch-p4 sddm-helper[31312]: [PAM] Starting...
+Apr 05 02:59:32 saikarch-p4 sddm-helper[31312]: [PAM] Authenticating...
+Apr 05 02:59:32 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.108' (uid=0 pid=31312 comm="/usr/lib/sddm/sddm-helper --socket /tmp/sddm-authc")
+Apr 05 02:59:32 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:59:32 saikarch-p4 sddm-helper[31312]: pam_systemd_home(sddm:auth): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Apr 05 02:59:32 saikarch-p4 sddm-helper[31312]: [PAM] Preparing to converse...
+Apr 05 02:59:32 saikarch-p4 sddm-helper[31312]: [PAM] Conversation with 1 messages
+Apr 05 02:59:32 saikarch-p4 sddm-helper[31312]: pam_unix(sddm:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=saik
+Apr 05 02:59:33 saikarch-p4 sddm-helper[31312]: [PAM] authenticate: Authentication failure
+Apr 05 02:59:33 saikarch-p4 sddm-helper[31312]: [PAM] returning.
+Apr 05 02:59:33 saikarch-p4 sddm[31241]: Authentication error: "Authentication failure"
+Apr 05 02:59:33 saikarch-p4 sddm-greeter[31273]: Message received from daemon: LoginFailed
+Apr 05 02:59:33 saikarch-p4 sddm-helper[31312]: [PAM] Ended.
+Apr 05 02:59:33 saikarch-p4 sddm[31241]: Auth: sddm-helper exited with 1
+Apr 05 02:59:48 saikarch-p4 sddm-greeter[31273]: Reading from "/usr/share/wayland-sessions/hyprland.desktop"
+Apr 05 02:59:48 saikarch-p4 sddm[31241]: Message received from greeter: Login
+Apr 05 02:59:48 saikarch-p4 sddm[31241]: Reading from "/usr/share/wayland-sessions/hyprland.desktop"
+Apr 05 02:59:48 saikarch-p4 sddm[31241]: Reading from "/usr/share/wayland-sessions/hyprland.desktop"
+Apr 05 02:59:48 saikarch-p4 sddm[31241]: Session "/usr/share/wayland-sessions/hyprland.desktop" selected, command: "Hyprland"
+Apr 05 02:59:48 saikarch-p4 systemd-logind[577]: The system will reboot now!
+Apr 05 02:59:48 saikarch-p4 systemd-logind[577]: System is rebooting.
+░░ Subject: System shutdown initiated
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ System shutdown has been initiated. The shutdown has now begun and
+░░ all system services are terminated and all file systems unmounted.
+Apr 05 02:59:48 saikarch-p4 sddm-helper[31328]: [PAM] Starting...
+Apr 05 02:59:48 saikarch-p4 sddm-helper[31328]: [PAM] Authenticating...
+Apr 05 02:59:48 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.110' (uid=0 pid=31328 comm="/usr/lib/sddm/sddm-helper --socket /tmp/sddm-authc")
+Apr 05 02:59:48 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Refusing activation, D-Bus is shutting down.
+Apr 05 02:59:48 saikarch-p4 sddm-helper[31328]: pam_systemd_home(sddm:auth): Failed to query user record: Refusing activation, D-Bus is shutting down.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: Stopping Session 7 of User saik...
+░░ Subject: A stop job for unit session-7.scope has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit session-7.scope has begun execution.
+░░ 
+░░ The job identifier is 2571.
+Apr 05 02:59:48 saikarch-p4 login[1347]: pam_unix(login:session): session closed for user saik
+Apr 05 02:59:48 saikarch-p4 sddm-helper[31328]: [PAM] Preparing to converse...
+Apr 05 02:59:48 saikarch-p4 sddm-helper[31328]: pam_unix(sddm:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=saik
+Apr 05 02:59:48 saikarch-p4 sddm-helper[31328]: [PAM] Conversation with 1 messages
+Apr 05 02:59:48 saikarch-p4 systemd[1]: Stopping Session 8 of User saik...
+░░ Subject: A stop job for unit session-8.scope has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit session-8.scope has begun execution.
+░░ 
+░░ The job identifier is 2572.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: Stopping Session c5 of User sddm...
+░░ Subject: A stop job for unit session-c5.scope has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit session-c5.scope has begun execution.
+░░ 
+░░ The job identifier is 2545.
+Apr 05 02:59:48 saikarch-p4 sddm[31241]: Error from greeter session: "Process crashed"
+Apr 05 02:59:48 saikarch-p4 sddm[31241]: Auth: sddm-helper crashed (exit code 15)
+Apr 05 02:59:48 saikarch-p4 sddm[31241]: Error from greeter session: "Process crashed"
+Apr 05 02:59:48 saikarch-p4 sddm[31241]: Auth: sddm-helper exited with 15
+Apr 05 02:59:48 saikarch-p4 sddm[31241]: Greeter stopped.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: Removed slice Slice /system/modprobe.
+░░ Subject: A stop job for unit system-modprobe.slice has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit system-modprobe.slice has finished.
+░░ 
+░░ The job identifier is 2577 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: Stopped target Bluetooth Support.
+░░ Subject: A stop job for unit bluetooth.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit bluetooth.target has finished.
+░░ 
+░░ The job identifier is 2672 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: Stopped target Graphical Interface.
+░░ Subject: A stop job for unit graphical.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit graphical.target has finished.
+░░ 
+░░ The job identifier is 2557 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: Stopped target Multi-User System.
+░░ Subject: A stop job for unit multi-user.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit multi-user.target has finished.
+░░ 
+░░ The job identifier is 2556 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: Stopped target Login Prompts.
+░░ Subject: A stop job for unit getty.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit getty.target has finished.
+░░ 
+░░ The job identifier is 2645 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: Stopped target Sound Card.
+░░ Subject: A stop job for unit sound.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sound.target has finished.
+░░ 
+░░ The job identifier is 2608 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: Stopped target Timer Units.
+░░ Subject: A stop job for unit timers.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit timers.target has finished.
+░░ 
+░░ The job identifier is 2640 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: archlinux-keyring-wkd-sync.timer: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit archlinux-keyring-wkd-sync.timer has successfully entered the 'dead' state.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: Stopped Refresh existing PGP keys of archlinux-keyring regularly.
+░░ Subject: A stop job for unit archlinux-keyring-wkd-sync.timer has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit archlinux-keyring-wkd-sync.timer has finished.
+░░ 
+░░ The job identifier is 2543 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: shadow.timer: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit shadow.timer has successfully entered the 'dead' state.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: Stopped Daily verification of password and group files.
+░░ Subject: A stop job for unit shadow.timer has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit shadow.timer has finished.
+░░ 
+░░ The job identifier is 2547 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: systemd-tmpfiles-clean.timer: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-tmpfiles-clean.timer has successfully entered the 'dead' state.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: Stopped Daily Cleanup of Temporary Directories.
+░░ Subject: A stop job for unit systemd-tmpfiles-clean.timer has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-tmpfiles-clean.timer has finished.
+░░ 
+░░ The job identifier is 2590 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: systemd-coredump.socket: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-coredump.socket has successfully entered the 'dead' state.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: Closed Process Core Dump Socket.
+░░ Subject: A stop job for unit systemd-coredump.socket has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-coredump.socket has finished.
+░░ 
+░░ The job identifier is 2675 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: systemd-rfkill.socket: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-rfkill.socket has successfully entered the 'dead' state.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: Closed Load/Save RF Kill Switch Status /dev/rfkill Watch.
+░░ Subject: A stop job for unit systemd-rfkill.socket has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-rfkill.socket has finished.
+░░ 
+░░ The job identifier is 2549 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: Stopping Bluetooth service...
+░░ Subject: A stop job for unit bluetooth.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit bluetooth.service has begun execution.
+░░ 
+░░ The job identifier is 2554.
+Apr 05 02:59:48 saikarch-p4 bluetoothd[575]: Terminating
+Apr 05 02:59:48 saikarch-p4 systemd[1]: Stopping Getty on tty2...
+░░ Subject: A stop job for unit getty@tty2.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit getty@tty2.service has begun execution.
+░░ 
+░░ The job identifier is 2604.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: Starting Generate shutdown-ramfs...
+░░ Subject: A start job for unit mkinitcpio-generate-shutdown-ramfs.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit mkinitcpio-generate-shutdown-ramfs.service has begun execution.
+░░ 
+░░ The job identifier is 2575.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: Stopping Authorization Manager...
+░░ Subject: A stop job for unit polkit.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit polkit.service has begun execution.
+░░ 
+░░ The job identifier is 2597.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: Stopping Simple Desktop Display Manager...
+░░ Subject: A stop job for unit sddm.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sddm.service has begun execution.
+░░ 
+░░ The job identifier is 2587.
+Apr 05 02:59:48 saikarch-p4 sddm[31241]: Signal received: SIGTERM
+Apr 05 02:59:48 saikarch-p4 sddm[869]: Signal received: SIGTERM
+Apr 05 02:59:48 saikarch-p4 sddm[31241]: Socket server stopping...
+Apr 05 02:59:48 saikarch-p4 sddm[31241]: Socket server stopped.
+Apr 05 02:59:48 saikarch-p4 sddm[31241]: Display server stopping...
+Apr 05 02:59:48 saikarch-p4 systemd[1]: Stopping Load/Save OS Random Seed...
+░░ Subject: A stop job for unit systemd-random-seed.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-random-seed.service has begun execution.
+░░ 
+░░ The job identifier is 2551.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: session-c5.scope: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit session-c5.scope has successfully entered the 'dead' state.
+Apr 05 02:59:48 saikarch-p4 mkinitcpio[31336]: ==> Starting build: 'none'
+Apr 05 02:59:48 saikarch-p4 mkinitcpio[31336]:   -> Running build hook: [sd-shutdown]
+Apr 05 02:59:48 saikarch-p4 systemd[1]: Stopped Session c5 of User sddm.
+░░ Subject: A stop job for unit session-c5.scope has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit session-c5.scope has finished.
+░░ 
+░░ The job identifier is 2545 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: polkit.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit polkit.service has successfully entered the 'dead' state.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: Stopped Authorization Manager.
+░░ Subject: A stop job for unit polkit.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit polkit.service has finished.
+░░ 
+░░ The job identifier is 2597 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: systemd-random-seed.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-random-seed.service has successfully entered the 'dead' state.
+Apr 05 02:59:48 saikarch-p4 bluetoothd[575]: Stopping SDP server
+Apr 05 02:59:48 saikarch-p4 bluetoothd[575]: Exit
+Apr 05 02:59:48 saikarch-p4 systemd[1]: Stopped Load/Save OS Random Seed.
+░░ Subject: A stop job for unit systemd-random-seed.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-random-seed.service has finished.
+░░ 
+░░ The job identifier is 2551 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: bluetooth.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit bluetooth.service has successfully entered the 'dead' state.
+Apr 05 02:59:48 saikarch-p4 mkinitcpio[31336]: ==> Build complete.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: Stopped Bluetooth service.
+░░ Subject: A stop job for unit bluetooth.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit bluetooth.service has finished.
+░░ 
+░░ The job identifier is 2554 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: mkinitcpio-generate-shutdown-ramfs.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit mkinitcpio-generate-shutdown-ramfs.service has successfully entered the 'dead' state.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: Finished Generate shutdown-ramfs.
+░░ Subject: A start job for unit mkinitcpio-generate-shutdown-ramfs.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit mkinitcpio-generate-shutdown-ramfs.service has finished successfully.
+░░ 
+░░ The job identifier is 2575.
+Apr 05 02:59:48 saikarch-p4 systemd-logind[577]: Session c5 logged out. Waiting for processes to exit.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: Stopping User Manager for UID 971...
+░░ Subject: A stop job for unit user@971.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit user@971.service has begun execution.
+░░ 
+░░ The job identifier is 2594.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: getty@tty2.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit getty@tty2.service has successfully entered the 'dead' state.
+Apr 05 02:59:48 saikarch-p4 systemd[894]: Activating special unit Exit the Session...
+Apr 05 02:59:48 saikarch-p4 systemd[894]: Stopped target Bluetooth.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 230 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[894]: Stopped target Main User Target.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 239 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[894]: Stopped target Sound Card.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 240 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[894]: Stopping D-Bus User Message Bus...
+░░ Subject: A stop job for unit UNIT has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has begun execution.
+░░ 
+░░ The job identifier is 232.
+Apr 05 02:59:48 saikarch-p4 systemd[894]: Stopped D-Bus User Message Bus.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 232 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[894]: Removed slice User Core Session Slice.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 231 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[894]: Stopped target Basic System.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 241 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[894]: Stopped target Paths.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 238 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[894]: Stopped target Sockets.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 242 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[894]: Stopped target Timers.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 227 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[894]: Closed D-Bus User Message Bus Socket.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 236 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[894]: Closed GnuPG network certificate management daemon.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 224 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[894]: Closed GCR ssh-agent wrapper.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 235 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[894]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 221 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[894]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 220 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[894]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 233 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[894]: Closed GnuPG cryptographic agent and passphrase cache.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 223 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[894]: Closed p11-kit server.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 237 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[894]: Removed slice User Application Slice.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 234 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[894]: Reached target Shutdown.
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 219.
+Apr 05 02:59:48 saikarch-p4 systemd[894]: Finished Exit the Session.
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 218.
+Apr 05 02:59:48 saikarch-p4 systemd[894]: Reached target Exit the Session.
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 217.
+Apr 05 02:59:48 saikarch-p4 (sd-pam)[895]: pam_warn(systemd-user:setcred): function=[pam_sm_setcred] flags=0x8004 service=[systemd-user] terminal=[] user=[sddm] ruser=[<unknown>] rhost=[<unknown>]
+Apr 05 02:59:48 saikarch-p4 systemd[1]: Stopped Getty on tty2.
+░░ Subject: A stop job for unit getty@tty2.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit getty@tty2.service has finished.
+░░ 
+░░ The job identifier is 2604 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: user@971.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit user@971.service has successfully entered the 'dead' state.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: Stopped User Manager for UID 971.
+░░ Subject: A stop job for unit user@971.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit user@971.service has finished.
+░░ 
+░░ The job identifier is 2594 and the job result is done.
+Apr 05 02:59:48 saikarch-p4 systemd[1]: session-7.scope: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit session-7.scope has successfully entered the 'dead' state.
+Apr 05 02:59:49 saikarch-p4 systemd[1]: Stopped Session 7 of User saik.
+░░ Subject: A stop job for unit session-7.scope has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit session-7.scope has finished.
+░░ 
+░░ The job identifier is 2571 and the job result is done.
+Apr 05 02:59:49 saikarch-p4 systemd-logind[577]: Session 7 logged out. Waiting for processes to exit.
+Apr 05 02:59:49 saikarch-p4 systemd[1]: Removed slice Slice /system/getty.
+░░ Subject: A stop job for unit system-getty.slice has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit system-getty.slice has finished.
+░░ 
+░░ The job identifier is 2616 and the job result is done.
+Apr 05 02:59:49 saikarch-p4 systemd[1]: Stopping User Runtime Directory /run/user/971...
+░░ Subject: A stop job for unit user-runtime-dir@971.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit user-runtime-dir@971.service has begun execution.
+░░ 
+░░ The job identifier is 2602.
+Apr 05 02:59:49 saikarch-p4 systemd[1]: run-user-971.mount: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit run-user-971.mount has successfully entered the 'dead' state.
+Apr 05 02:59:49 saikarch-p4 systemd[1]: Unmounted /run/user/971.
+░░ Subject: A stop job for unit run-user-971.mount has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit run-user-971.mount has finished.
+░░ 
+░░ The job identifier is 2564 and the job result is done.
+Apr 05 02:59:49 saikarch-p4 systemd[1]: user-runtime-dir@971.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit user-runtime-dir@971.service has successfully entered the 'dead' state.
+Apr 05 02:59:49 saikarch-p4 systemd[1]: Stopped User Runtime Directory /run/user/971.
+░░ Subject: A stop job for unit user-runtime-dir@971.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit user-runtime-dir@971.service has finished.
+░░ 
+░░ The job identifier is 2602 and the job result is done.
+Apr 05 02:59:49 saikarch-p4 systemd[1]: Removed slice User Slice of UID 971.
+░░ Subject: A stop job for unit user-971.slice has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit user-971.slice has finished.
+░░ 
+░░ The job identifier is 2609 and the job result is done.
+Apr 05 02:59:49 saikarch-p4 systemd[1]: user-971.slice: Consumed 1.720s CPU time.
+░░ Subject: Resources consumed by unit runtime
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit user-971.slice completed and consumed the indicated resources.
+Apr 05 02:59:49 saikarch-p4 systemd-coredump[31453]: Failed to connect to coredump service: Connection refused
+Apr 05 02:59:49 saikarch-p4 systemd[1]: session-8.scope: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit session-8.scope has successfully entered the 'dead' state.
+Apr 05 02:59:49 saikarch-p4 systemd[1]: Stopped Session 8 of User saik.
+░░ Subject: A stop job for unit session-8.scope has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit session-8.scope has finished.
+░░ 
+░░ The job identifier is 2572 and the job result is done.
+Apr 05 02:59:49 saikarch-p4 systemd[1]: session-8.scope: Consumed 10min 28.331s CPU time.
+░░ Subject: Resources consumed by unit runtime
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit session-8.scope completed and consumed the indicated resources.
+Apr 05 02:59:49 saikarch-p4 systemd[1]: Stopping User Manager for UID 1000...
+░░ Subject: A stop job for unit user@1000.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit user@1000.service has begun execution.
+░░ 
+░░ The job identifier is 2591.
+Apr 05 02:59:49 saikarch-p4 systemd[644]: Activating special unit Exit the Session...
+Apr 05 02:59:49 saikarch-p4 systemd[644]: Stopped target Bluetooth.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 248 and the job result is done.
+Apr 05 02:59:49 saikarch-p4 systemd[644]: Stopped target Main User Target.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 242 and the job result is done.
+Apr 05 02:59:49 saikarch-p4 systemd[644]: Stopped target Sound Card.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 247 and the job result is done.
+Apr 05 02:59:49 saikarch-p4 systemd[644]: Stopping Accessibility services bus...
+░░ Subject: A stop job for unit UNIT has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has begun execution.
+░░ 
+░░ The job identifier is 244.
+Apr 05 02:59:49 saikarch-p4 systemd[644]: Stopping D-Bus User Message Bus...
+░░ Subject: A stop job for unit UNIT has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has begun execution.
+░░ 
+░░ The job identifier is 246.
+Apr 05 02:59:49 saikarch-p4 systemd[644]: Stopped Accessibility services bus.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 244 and the job result is done.
+Apr 05 02:59:49 saikarch-p4 systemd[644]: Stopped D-Bus User Message Bus.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 246 and the job result is done.
+Apr 05 02:59:49 saikarch-p4 systemd[644]: Removed slice User Core Session Slice.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 263 and the job result is done.
+Apr 05 02:59:49 saikarch-p4 systemd[644]: Stopped target Basic System.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 262 and the job result is done.
+Apr 05 02:59:49 saikarch-p4 systemd[644]: Stopped target Paths.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 239 and the job result is done.
+Apr 05 02:59:49 saikarch-p4 systemd[644]: Stopped target Sockets.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 245 and the job result is done.
+Apr 05 02:59:49 saikarch-p4 systemd[644]: Stopped target Timers.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 241 and the job result is done.
+Apr 05 02:59:49 saikarch-p4 systemd[644]: Closed D-Bus User Message Bus Socket.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 261 and the job result is done.
+Apr 05 02:59:49 saikarch-p4 systemd[644]: Closed GnuPG network certificate management daemon.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 252 and the job result is done.
+Apr 05 02:59:49 saikarch-p4 systemd[644]: Closed GCR ssh-agent wrapper.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 257 and the job result is done.
+Apr 05 02:59:49 saikarch-p4 systemd[644]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 250 and the job result is done.
+Apr 05 02:59:49 saikarch-p4 systemd[644]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 259 and the job result is done.
+Apr 05 02:59:49 saikarch-p4 systemd[644]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 260 and the job result is done.
+Apr 05 02:59:49 saikarch-p4 systemd[644]: Closed GnuPG cryptographic agent and passphrase cache.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 253 and the job result is done.
+Apr 05 02:59:49 saikarch-p4 systemd[644]: Closed p11-kit server.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 255 and the job result is done.
+Apr 05 02:59:49 saikarch-p4 systemd[644]: Removed slice User Application Slice.
+░░ Subject: A stop job for unit UNIT has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit UNIT has finished.
+░░ 
+░░ The job identifier is 249 and the job result is done.
+Apr 05 02:59:49 saikarch-p4 systemd[644]: Reached target Shutdown.
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 238.
+Apr 05 02:59:49 saikarch-p4 systemd[644]: Finished Exit the Session.
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 236.
+Apr 05 02:59:49 saikarch-p4 systemd[644]: Reached target Exit the Session.
+░░ Subject: A start job for unit UNIT has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit UNIT has finished successfully.
+░░ 
+░░ The job identifier is 235.
+Apr 05 02:59:49 saikarch-p4 (sd-pam)[645]: pam_warn(systemd-user:setcred): function=[pam_sm_setcred] flags=0x8004 service=[systemd-user] terminal=[] user=[saik] ruser=[<unknown>] rhost=[<unknown>]
+Apr 05 02:59:49 saikarch-p4 systemd[1]: user@1000.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit user@1000.service has successfully entered the 'dead' state.
+Apr 05 02:59:49 saikarch-p4 systemd[1]: Stopped User Manager for UID 1000.
+░░ Subject: A stop job for unit user@1000.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit user@1000.service has finished.
+░░ 
+░░ The job identifier is 2591 and the job result is done.
+Apr 05 02:59:49 saikarch-p4 sddm[31241]: Display server stopped.
+Apr 05 02:59:49 saikarch-p4 sddm[31241]: Running display stop script  "/usr/share/sddm/scripts/Xstop"
+Apr 05 02:59:49 saikarch-p4 sddm[31241]: QProcess: Destroyed while process ("/usr/lib/sddm/sddm-helper") is still running.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: sddm.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit sddm.service has successfully entered the 'dead' state.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopped Simple Desktop Display Manager.
+░░ Subject: A stop job for unit sddm.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sddm.service has finished.
+░░ 
+░░ The job identifier is 2587 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: sddm.service: Consumed 1.178s CPU time.
+░░ Subject: Resources consumed by unit runtime
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit sddm.service completed and consumed the indicated resources.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopping User Login Management...
+░░ Subject: A stop job for unit systemd-logind.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-logind.service has begun execution.
+░░ 
+░░ The job identifier is 2548.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopping Permit User Sessions...
+░░ Subject: A stop job for unit systemd-user-sessions.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-user-sessions.service has begun execution.
+░░ 
+░░ The job identifier is 2588.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopping User Runtime Directory /run/user/1000...
+░░ Subject: A stop job for unit user-runtime-dir@1000.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit user-runtime-dir@1000.service has begun execution.
+░░ 
+░░ The job identifier is 2596.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: run-user-1000.mount: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit run-user-1000.mount has successfully entered the 'dead' state.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Unmounted /run/user/1000.
+░░ Subject: A stop job for unit run-user-1000.mount has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit run-user-1000.mount has finished.
+░░ 
+░░ The job identifier is 2567 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: systemd-logind.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-logind.service has successfully entered the 'dead' state.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopped User Login Management.
+░░ Subject: A stop job for unit systemd-logind.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-logind.service has finished.
+░░ 
+░░ The job identifier is 2548 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: systemd-user-sessions.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-user-sessions.service has successfully entered the 'dead' state.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopped Permit User Sessions.
+░░ Subject: A stop job for unit systemd-user-sessions.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-user-sessions.service has finished.
+░░ 
+░░ The job identifier is 2588 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: user-runtime-dir@1000.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit user-runtime-dir@1000.service has successfully entered the 'dead' state.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopped User Runtime Directory /run/user/1000.
+░░ Subject: A stop job for unit user-runtime-dir@1000.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit user-runtime-dir@1000.service has finished.
+░░ 
+░░ The job identifier is 2596 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Removed slice User Slice of UID 1000.
+░░ Subject: A stop job for unit user-1000.slice has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit user-1000.slice has finished.
+░░ 
+░░ The job identifier is 2638 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: user-1000.slice: Consumed 10min 34.541s CPU time.
+░░ Subject: Resources consumed by unit runtime
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit user-1000.slice completed and consumed the indicated resources.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopped target Network.
+░░ Subject: A stop job for unit network.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit network.target has finished.
+░░ 
+░░ The job identifier is 2657 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopped target Remote File Systems.
+░░ Subject: A stop job for unit remote-fs.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit remote-fs.target has finished.
+░░ 
+░░ The job identifier is 2585 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopping Network Manager...
+░░ Subject: A stop job for unit NetworkManager.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit NetworkManager.service has begun execution.
+░░ 
+░░ The job identifier is 2592.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopping WPA supplicant...
+░░ Subject: A stop job for unit wpa_supplicant.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit wpa_supplicant.service has begun execution.
+░░ 
+░░ The job identifier is 2595.
+Apr 05 02:59:50 saikarch-p4 NetworkManager[578]: <info>  [1680677990.3191] caught SIGTERM, shutting down normally.
+Apr 05 02:59:50 saikarch-p4 wpa_supplicant[636]: p2p-dev-wlp7s0: CTRL-EVENT-DSCP-POLICY clear_all
+Apr 05 02:59:50 saikarch-p4 wpa_supplicant[636]: p2p-dev-wlp7s0: CTRL-EVENT-DSCP-POLICY clear_all
+Apr 05 02:59:50 saikarch-p4 wpa_supplicant[636]: nl80211: deinit ifname=p2p-dev-wlp7s0 disabled_11b_rates=0
+Apr 05 02:59:50 saikarch-p4 wpa_supplicant[636]: p2p-dev-wlp7s0: CTRL-EVENT-TERMINATING
+Apr 05 02:59:50 saikarch-p4 kernel: wlp7s0: deauthenticating from a4:b2:39:5f:f4:ac by local choice (Reason: 3=DEAUTH_LEAVING)
+Apr 05 02:59:50 saikarch-p4 wpa_supplicant[636]: wlp7s0: CTRL-EVENT-DISCONNECTED bssid=a4:b2:39:5f:f4:ac reason=3 locally_generated=1
+Apr 05 02:59:50 saikarch-p4 NetworkManager[578]: <info>  [1680677990.4533] device (wlp7s0): state change: activated -> deactivating (reason 'unmanaged', sys-iface-state: 'managed')
+Apr 05 02:59:50 saikarch-p4 wpa_supplicant[636]: wlp7s0: CTRL-EVENT-DSCP-POLICY clear_all
+Apr 05 02:59:50 saikarch-p4 NetworkManager[578]: <info>  [1680677990.4538] manager: NetworkManager state is now DISCONNECTING
+Apr 05 02:59:50 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.2' (uid=0 pid=578 comm="/usr/bin/NetworkManager --no-daemon")
+Apr 05 02:59:50 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.nm-dispatcher.service': Refusing activation, D-Bus is shutting down.
+Apr 05 02:59:50 saikarch-p4 NetworkManager[578]: <warn>  [1680677990.4551] dispatcher: (19) failed (after 0.001 sec): Refusing activation, D-Bus is shutting down.
+Apr 05 02:59:50 saikarch-p4 NetworkManager[578]: <info>  [1680677990.4554] device (wlp7s0): state change: deactivating -> unmanaged (reason 'removed', sys-iface-state: 'managed')
+Apr 05 02:59:50 saikarch-p4 NetworkManager[578]: <info>  [1680677990.4883] dhcp4 (wlp7s0): canceled DHCP transaction
+Apr 05 02:59:50 saikarch-p4 NetworkManager[578]: <info>  [1680677990.4884] dhcp4 (wlp7s0): activation: beginning transaction (timeout in 45 seconds)
+Apr 05 02:59:50 saikarch-p4 NetworkManager[578]: <info>  [1680677990.4884] dhcp4 (wlp7s0): state changed no lease
+Apr 05 02:59:50 saikarch-p4 wpa_supplicant[636]: wlp7s0: PMKSA-CACHE-REMOVED a4:b2:39:5f:f4:ac 0
+Apr 05 02:59:50 saikarch-p4 wpa_supplicant[636]: wlp7s0: PMKSA-CACHE-REMOVED 3c:41:0e:30:71:2c 0
+Apr 05 02:59:50 saikarch-p4 wpa_supplicant[636]: wlp7s0: PMKSA-CACHE-REMOVED a4:b2:39:5c:f6:8c 0
+Apr 05 02:59:50 saikarch-p4 wpa_supplicant[636]: wlp7s0: PMKSA-CACHE-REMOVED a4:b2:39:5e:43:ac 0
+Apr 05 02:59:50 saikarch-p4 wpa_supplicant[636]: wlp7s0: PMKSA-CACHE-REMOVED a4:b2:39:5e:3a:2c 0
+Apr 05 02:59:50 saikarch-p4 wpa_supplicant[636]: wlp7s0: PMKSA-CACHE-REMOVED a4:b2:39:5e:6b:2c 0
+Apr 05 02:59:50 saikarch-p4 wpa_supplicant[636]: wlp7s0: CTRL-EVENT-DSCP-POLICY clear_all
+Apr 05 02:59:50 saikarch-p4 wpa_supplicant[636]: nl80211: deinit ifname=wlp7s0 disabled_11b_rates=0
+Apr 05 02:59:50 saikarch-p4 wpa_supplicant[636]: wlp7s0: CTRL-EVENT-TERMINATING
+Apr 05 02:59:50 saikarch-p4 NetworkManager[578]: <info>  [1680677990.5726] manager: NetworkManager state is now DISCONNECTED
+Apr 05 02:59:50 saikarch-p4 systemd[1]: wpa_supplicant.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit wpa_supplicant.service has successfully entered the 'dead' state.
+Apr 05 02:59:50 saikarch-p4 dbus-daemon[576]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.2' (uid=0 pid=578 comm="/usr/bin/NetworkManager --no-daemon")
+Apr 05 02:59:50 saikarch-p4 NetworkManager[578]: <info>  [1680677990.5741] device (p2p-dev-wlp7s0): state change: disconnected -> unmanaged (reason 'removed', sys-iface-state: 'removed')
+Apr 05 02:59:50 saikarch-p4 NetworkManager[578]: <info>  [1680677990.5774] exiting (success)
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopped WPA supplicant.
+░░ Subject: A stop job for unit wpa_supplicant.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit wpa_supplicant.service has finished.
+░░ 
+░░ The job identifier is 2595 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: NetworkManager.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit NetworkManager.service has successfully entered the 'dead' state.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopped Network Manager.
+░░ Subject: A stop job for unit NetworkManager.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit NetworkManager.service has finished.
+░░ 
+░░ The job identifier is 2592 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 dbus-daemon[576]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.nm-dispatcher.service': Refusing activation, D-Bus is shutting down.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopping D-Bus System Message Bus...
+░░ Subject: A stop job for unit dbus.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit dbus.service has begun execution.
+░░ 
+░░ The job identifier is 2593.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: dbus.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit dbus.service has successfully entered the 'dead' state.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopped D-Bus System Message Bus.
+░░ Subject: A stop job for unit dbus.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit dbus.service has finished.
+░░ 
+░░ The job identifier is 2593 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopped target Basic System.
+░░ Subject: A stop job for unit basic.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit basic.target has finished.
+░░ 
+░░ The job identifier is 2555 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopped target Path Units.
+░░ Subject: A stop job for unit paths.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit paths.target has finished.
+░░ 
+░░ The job identifier is 2639 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopped target Slice Units.
+░░ Subject: A stop job for unit slices.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit slices.target has finished.
+░░ 
+░░ The job identifier is 2674 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Removed slice User and Session Slice.
+░░ Subject: A stop job for unit user.slice has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit user.slice has finished.
+░░ 
+░░ The job identifier is 2637 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: user.slice: Consumed 10min 36.262s CPU time.
+░░ Subject: Resources consumed by unit runtime
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit user.slice completed and consumed the indicated resources.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopped target Socket Units.
+░░ Subject: A stop job for unit sockets.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sockets.target has finished.
+░░ 
+░░ The job identifier is 2630 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: dbus.socket: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit dbus.socket has successfully entered the 'dead' state.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Closed D-Bus System Message Bus Socket.
+░░ Subject: A stop job for unit dbus.socket has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit dbus.socket has finished.
+░░ 
+░░ The job identifier is 2601 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopped target System Initialization.
+░░ Subject: A stop job for unit sysinit.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sysinit.target has finished.
+░░ 
+░░ The job identifier is 2586 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: proc-sys-fs-binfmt_misc.automount: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit proc-sys-fs-binfmt_misc.automount has successfully entered the 'dead' state.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Unset automount Arbitrary Executable File Formats File System Automount Point.
+░░ Subject: A stop job for unit proc-sys-fs-binfmt_misc.automount has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit proc-sys-fs-binfmt_misc.automount has finished.
+░░ 
+░░ The job identifier is 2625 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopped target Local Encrypted Volumes.
+░░ Subject: A stop job for unit cryptsetup.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit cryptsetup.target has finished.
+░░ 
+░░ The job identifier is 2678 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: systemd-ask-password-console.path: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-ask-password-console.path has successfully entered the 'dead' state.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopped Dispatch Password Requests to Console Directory Watch.
+░░ Subject: A stop job for unit systemd-ask-password-console.path has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-ask-password-console.path has finished.
+░░ 
+░░ The job identifier is 2641 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: systemd-ask-password-wall.path: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-ask-password-wall.path has successfully entered the 'dead' state.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopped Forward Password Requests to Wall Directory Watch.
+░░ Subject: A stop job for unit systemd-ask-password-wall.path has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-ask-password-wall.path has finished.
+░░ 
+░░ The job identifier is 2605 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopped target Local Integrity Protected Volumes.
+░░ Subject: A stop job for unit integritysetup.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit integritysetup.target has finished.
+░░ 
+░░ The job identifier is 2677 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopped target Swaps.
+░░ Subject: A stop job for unit swap.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit swap.target has finished.
+░░ 
+░░ The job identifier is 2623 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopped target Local Verity Protected Volumes.
+░░ Subject: A stop job for unit veritysetup.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit veritysetup.target has finished.
+░░ 
+░░ The job identifier is 2661 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopping Load/Save Screen Backlight Brightness of backlight:amdgpu_bl0...
+░░ Subject: A stop job for unit systemd-backlight@backlight:amdgpu_bl0.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-backlight@backlight:amdgpu_bl0.service has begun execution.
+░░ 
+░░ The job identifier is 2559.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopping Load/Save Screen Backlight Brightness of leds:asus::kbd_backlight...
+░░ Subject: A stop job for unit systemd-backlight@leds:asus::kbd_backlight.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-backlight@leds:asus::kbd_backlight.service has begun execution.
+░░ 
+░░ The job identifier is 2562.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: systemd-sysctl.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-sysctl.service has successfully entered the 'dead' state.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopped Apply Kernel Variables.
+░░ Subject: A stop job for unit systemd-sysctl.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-sysctl.service has finished.
+░░ 
+░░ The job identifier is 2669 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: systemd-modules-load.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-modules-load.service has successfully entered the 'dead' state.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopped Load Kernel Modules.
+░░ Subject: A stop job for unit systemd-modules-load.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-modules-load.service has finished.
+░░ 
+░░ The job identifier is 2644 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: systemd-update-done.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-update-done.service has successfully entered the 'dead' state.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopped Update is Completed.
+░░ Subject: A stop job for unit systemd-update-done.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-update-done.service has finished.
+░░ 
+░░ The job identifier is 2652 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: ldconfig.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit ldconfig.service has successfully entered the 'dead' state.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopped Rebuild Dynamic Linker Cache.
+░░ Subject: A stop job for unit ldconfig.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit ldconfig.service has finished.
+░░ 
+░░ The job identifier is 2653 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: systemd-journal-catalog-update.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-journal-catalog-update.service has successfully entered the 'dead' state.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopped Rebuild Journal Catalog.
+░░ Subject: A stop job for unit systemd-journal-catalog-update.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-journal-catalog-update.service has finished.
+░░ 
+░░ The job identifier is 2626 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Stopping Record System Boot/Shutdown in UTMP...
+░░ Subject: A stop job for unit systemd-update-utmp.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-update-utmp.service has begun execution.
+░░ 
+░░ The job identifier is 2560.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: run-credentials-systemd\x2dsysctl.service.mount: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit run-credentials-systemd\x2dsysctl.service.mount has successfully entered the 'dead' state.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: Unmounted /run/credentials/systemd-sysctl.service.
+░░ Subject: A stop job for unit run-credentials-systemd\x2dsysctl.service.mount has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit run-credentials-systemd\x2dsysctl.service.mount has finished.
+░░ 
+░░ The job identifier is 2565 and the job result is done.
+Apr 05 02:59:50 saikarch-p4 systemd[1]: systemd-backlight@backlight:amdgpu_bl0.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-backlight@backlight:amdgpu_bl0.service has successfully entered the 'dead' state.
+Apr 05 02:59:51 saikarch-p4 systemd[1]: Stopped Load/Save Screen Backlight Brightness of backlight:amdgpu_bl0.
+░░ Subject: A stop job for unit systemd-backlight@backlight:amdgpu_bl0.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-backlight@backlight:amdgpu_bl0.service has finished.
+░░ 
+░░ The job identifier is 2559 and the job result is done.
+Apr 05 02:59:51 saikarch-p4 systemd[1]: systemd-backlight@leds:asus::kbd_backlight.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-backlight@leds:asus::kbd_backlight.service has successfully entered the 'dead' state.
+Apr 05 02:59:51 saikarch-p4 systemd[1]: Stopped Load/Save Screen Backlight Brightness of leds:asus::kbd_backlight.
+░░ Subject: A stop job for unit systemd-backlight@leds:asus::kbd_backlight.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-backlight@leds:asus::kbd_backlight.service has finished.
+░░ 
+░░ The job identifier is 2562 and the job result is done.
+Apr 05 02:59:51 saikarch-p4 systemd[1]: Removed slice Slice /system/systemd-backlight.
+░░ Subject: A stop job for unit system-systemd\x2dbacklight.slice has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit system-systemd\x2dbacklight.slice has finished.
+░░ 
+░░ The job identifier is 2617 and the job result is done.
+Apr 05 02:59:51 saikarch-p4 systemd[1]: systemd-update-utmp.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-update-utmp.service has successfully entered the 'dead' state.
+Apr 05 02:59:51 saikarch-p4 systemd[1]: Stopped Record System Boot/Shutdown in UTMP.
+░░ Subject: A stop job for unit systemd-update-utmp.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-update-utmp.service has finished.
+░░ 
+░░ The job identifier is 2560 and the job result is done.
+Apr 05 02:59:51 saikarch-p4 systemd[1]: systemd-tmpfiles-setup.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-tmpfiles-setup.service has successfully entered the 'dead' state.
+Apr 05 02:59:51 saikarch-p4 systemd[1]: Stopped Create Volatile Files and Directories.
+░░ Subject: A stop job for unit systemd-tmpfiles-setup.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-tmpfiles-setup.service has finished.
+░░ 
+░░ The job identifier is 2613 and the job result is done.
+Apr 05 02:59:51 saikarch-p4 systemd[1]: Stopped target Local File Systems.
+░░ Subject: A stop job for unit local-fs.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit local-fs.target has finished.
+░░ 
+░░ The job identifier is 2546 and the job result is done.
+Apr 05 02:59:51 saikarch-p4 systemd[1]: Unmounting /.snapshots...
+░░ Subject: A stop job for unit \x2esnapshots.mount has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit \x2esnapshots.mount has begun execution.
+░░ 
+░░ The job identifier is 2568.
+Apr 05 02:59:51 saikarch-p4 systemd[1]: Unmounting /boot...
+░░ Subject: A stop job for unit boot.mount has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit boot.mount has begun execution.
+░░ 
+░░ The job identifier is 2566.
+Apr 05 02:59:51 saikarch-p4 systemd[1]: Unmounting /home...
+░░ Subject: A stop job for unit home.mount has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit home.mount has begun execution.
+░░ 
+░░ The job identifier is 2570.
+Apr 05 02:59:51 saikarch-p4 systemd[1]: Unmounting /run/credentials/systemd-sysusers.service...
+░░ Subject: A stop job for unit run-credentials-systemd\x2dsysusers.service.mount has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit run-credentials-systemd\x2dsysusers.service.mount has begun execution.
+░░ 
+░░ The job identifier is 2563.
+Apr 05 02:59:51 saikarch-p4 systemd[1]: Unmounting /run/credentials/systemd-tmpfiles-setup.service...
+░░ Subject: A stop job for unit run-credentials-systemd\x2dtmpfiles\x2dsetup.service.mount has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit run-credentials-systemd\x2dtmpfiles\x2dsetup.service.mount has begun execution.
+░░ 
+░░ The job identifier is 2540.
+Apr 05 02:59:51 saikarch-p4 systemd[1]: Unmounting /run/credentials/systemd-tmpfiles-setup-dev.service...
+░░ Subject: A stop job for unit run-credentials-systemd\x2dtmpfiles\x2dsetup\x2ddev.service.mount has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit run-credentials-systemd\x2dtmpfiles\x2dsetup\x2ddev.service.mount has begun execution.
+░░ 
+░░ The job identifier is 2538.
+Apr 05 02:59:51 saikarch-p4 systemd[1]: Unmounting /tmp...
+░░ Subject: A stop job for unit tmp.mount has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit tmp.mount has begun execution.
+░░ 
+░░ The job identifier is 2569.
+Apr 05 02:59:51 saikarch-p4 systemd[1]: Stopping Flush Journal to Persistent Storage...
+░░ Subject: A stop job for unit systemd-journal-flush.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-journal-flush.service has begun execution.
+░░ 
+░░ The job identifier is 2552.
+Apr 05 02:59:51 saikarch-p4 umount[31476]: umount: /run/credentials/systemd-tmpfiles-setup.service: no mount point specified.
+Apr 05 02:59:51 saikarch-p4 systemd[1]: \x2esnapshots.mount: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit \x2esnapshots.mount has successfully entered the 'dead' state.
